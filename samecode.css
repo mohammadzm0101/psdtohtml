@@ -1,1 +1,44 @@
+body{
+    font-family:;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
 
+    font-family: ;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0 none;
+    direction:rtl;
+    list-style-type: none;
+}
+/*for same sections
+first html styling in css & have point for styling this way name is involute
+just can use 5 level meant 5 class or id after maybe browser cant understand but ul or ... can
+first after styling ofcurse      1 size        2 color        3then content*/ 
+ul{
+    overflow: hidden;
+    background-color:aqua;
+    color:darkred;
+    
+   
+}
+li{
+     background-color: cadetblue;
+     color:deeppink;
+     float: right;
+     margin:30px;
+     padding: 10px;
+     
+     
+}
+li a{
+    display: inline-block ;
+    background-color: darkblue;
+    color:darkgoldenrod;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
