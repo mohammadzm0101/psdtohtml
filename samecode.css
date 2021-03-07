@@ -79,3 +79,10 @@ header .navbars .items ul li a h5{
     color: #646464;
 
 }
+header .navbars .items ul li i.userIcon{
+    background-image: url("userIcon.png");
+    width: 19px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
