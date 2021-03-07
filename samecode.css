@@ -39,7 +39,7 @@ header .navbars .items ul{
     
     background-color:aqua;
     color:darkred;
-    margin-right: -14px;
+    margin-right: -11px;
     
     
    
@@ -48,18 +48,27 @@ header .navbars .items ul li{
      background-color: cadetblue;
      color:deeppink;
      float: right;
-     margin: 32px 34px 0 0;  
+     margin: 32px 35px 0 0; 
 }
 header .navbars .items ul li a{
     display: inline-block;
     background-color: darkblue;
     color:darkgoldenrod;
     text-align: center;
+     
 }
 header .navbars .items ul li a h4{
     color: #27bec4;
+    
 }
 header .navbars .items ul li a h5{
     color: #646464;
 
+}
+header .navbars .items ul li i.userIcon{
+background-image: url('userIcon.png');
+width: 19px;
+height: 20px;
+display: inline-block;
+margin-bottom: 2px;
 }
