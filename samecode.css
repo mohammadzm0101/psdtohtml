@@ -1,10 +1,8 @@
 body{
-    font-family:;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1, h2, h3, h4, h5, h6,input, textarea {
-
-    font-family: ;
-
+ h4{
+    font-family: Arial, Helvetica, sans-serif;
 }
 *{
     margin: 0;
@@ -31,52 +29,50 @@ header .navbars{
      background-color: hotpink;
 }
 header .navbars .items{
-    background-color: greenyellow;
     width: 700px;
     height: 71px;
+    background-color: #ffffff;
 }
 header .navbars .items ul{
-    
-    background-color:aqua;
-    color:darkred;
     margin-right: -14px;
-    
-    
-   
 }
 header .navbars .items ul li{
-     background-color: cadetblue;
-     color:deeppink;
      float: right;
      margin: 32px 34px 0 0;
      position: relative; 
 }
-
 header .navbars .items ul li a{
     display: inline-block;
-    background-color: darkblue;
-    color:darkgoldenrod;
-    text-align: center;
-    
+    text-align: center; 
 }
 header .navbars .items ul li::after{
     content:"";
     width: 1px;
     height: 13px;
-    background-color:maroon;
-    color: mediumvioletred;
+    background-color: rgba(232 , 231, 231, 0.9);
     position: absolute;
     bottom: 9px;
-    left: -15px;
+    left: -17px;
 }
 header .navbars .items ul li:last-child::after{
     content: none;
 }
 header .navbars .items ul li a h4{
     color: #27bec4;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
 }
 header .navbars .items ul li a h5{
-    color: #646464;
+   color: rgba(100, 100, 100, 0.9);
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-left: 4px;
+}
+header .navbars .items ul li a h5 #log{
+    letter-spacing: normal;
 
 }
 header .navbars .items ul li i.userIcon{
