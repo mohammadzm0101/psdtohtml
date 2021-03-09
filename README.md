@@ -13,7 +13,5 @@ Psd point: After drag & drop images for icons or … use eye background click
 challenges: Icons: create font icon .svg if cant png photo but can compress & with alittle size use ????
 
 
-Write persien number in phpstorm
-
 
 Learn vs code
