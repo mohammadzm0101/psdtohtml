@@ -130,16 +130,20 @@ header .navbars .searchBox{
     width: 534px;
     height: 35px;
     float: right;
-    margin-right: 22px;
     border: cadetblue solid;
+    margin-right: 32px;
+    overflow: hidden;
+}
+header .navbars .searchBox form{
+    background-color: blue;
 }
 header .navbars .searchBox form #searchIn{
     height: 35px;
-    width: 490px;
-    margin-right: 5px;
-
-
+    padding-right: 13px;
+    background-color: cornsilk;
 }
 header .navbars .searchBox form #submitIn{
-    height: 35px;
+   background: url("../images/searchIn.png") no-repeat;
+   background-color: blueviolet;
+   
 }
