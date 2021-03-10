@@ -124,3 +124,22 @@ header .navbars .items ul li i.userIcon{
     display: inline-block;
     margin-bottom: 2px;
 }
+header .navbars .searchBox{
+    background-color: burlywood;
+    color: cadetblue;
+    width: 534px;
+    height: 35px;
+    float: right;
+    margin-right: 22px;
+    border: cadetblue solid;
+}
+header .navbars .searchBox form #searchIn{
+    height: 35px;
+    width: 490px;
+    margin-right: 5px;
+
+
+}
+header .navbars .searchBox form #submitIn{
+    height: 35px;
+}
