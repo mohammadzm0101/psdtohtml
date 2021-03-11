@@ -60,14 +60,13 @@ first after styling ofcurse      1 size        2 color        3then content*/
 header{
     width: 100%;
     height: 141px;
-    background-color: blanchedalmond;
     overflow: hidden;
 }
 header .navbars{
      width: 1024px;
      height: 141px;
      margin: 0 auto;
-     background-color: hotpink;
+     background-color: hok;
 }
 header .navbars .items{
     width: 700px;
@@ -125,39 +124,38 @@ header .navbars .items ul li i.userIcon{
     margin-bottom: 2px;
 }
 header .navbars .searchBox{
-    background-color: burlywood;
-    color: cadetblue;
     width: 536px;
     height: 33px;
     float: right;
-    overflow: hidd
-    border: darkcyan solid 1px;
+    overflow: hidden;
+    border: rgba(245,245,245,0.9) solid 1px;
+    border-radius: 2px;
     margin-right: 23px;
 }    
 header .navbars .searchBox form{
-   background-color: blue;
+   background-color: rgba(245,245,245,0.9);
    position: relative;
   
 }
 
 header .navbars .searchBox form #searchIn{
     padding-right: 13px;
-    background-color: cornsilk;
+    background-color:rgba(245,245,245,0.9);
+    color: cadetblue;
     height: 33px;
     width: 495px;
 }
 header .navbars .searchBox form::before{
     content: "";
-    background-color: darkorange;
-    color: green;
+    background-color:rgb(219,216,216);
     width: 1px;
     height: 19px;
     position: absolute;
     top: 7px;
-    right: 499px;
+    right: 500px;
 }
 header .navbars .searchBox form .searchBu{
-    background-color:greenyellow;
+    background-color: rgba(245,245,245,0.9) ;
     padding: 9px 6px 12px 8px;
     margin-right: 8px;
 
@@ -165,12 +163,11 @@ header .navbars .searchBox form .searchBu{
 }
 header .navbars .searchBox form .searchBu #searchBuIcon{
    background: url("../images/searchIn.png") no-repeat;
-   background-color: blueviolet;
+   background-color: rgba(245,245,245,0.9);
    width: 15px;
    height: 15px;
    display: inline-block;
    margin-bottom: -3px;
-   margin-right: 3px;
-   margin-top: 5px;
+   
    
 }
