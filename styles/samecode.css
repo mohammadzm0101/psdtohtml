@@ -127,23 +127,50 @@ header .navbars .items ul li i.userIcon{
 header .navbars .searchBox{
     background-color: burlywood;
     color: cadetblue;
-    width: 534px;
-    height: 35px;
+    width: 536px;
+    height: 33px;
     float: right;
-    border: cadetblue solid;
-    margin-right: 32px;
-    overflow: hidden;
-}
+    overflow: hidd
+    border: darkcyan solid 1px;
+    margin-right: 23px;
+}    
 header .navbars .searchBox form{
-    background-color: blue;
+   background-color: blue;
+   position: relative;
+  
 }
+
 header .navbars .searchBox form #searchIn{
-    height: 35px;
     padding-right: 13px;
     background-color: cornsilk;
+    height: 33px;
+    width: 495px;
 }
-header .navbars .searchBox form #submitIn{
+header .navbars .searchBox form::before{
+    content: "";
+    background-color: darkorange;
+    color: green;
+    width: 1px;
+    height: 19px;
+    position: absolute;
+    top: 7px;
+    right: 499px;
+}
+header .navbars .searchBox form .searchBu{
+    background-color:greenyellow;
+    padding: 9px 6px 12px 8px;
+    margin-right: 8px;
+
+    
+}
+header .navbars .searchBox form .searchBu #searchBuIcon{
    background: url("../images/searchIn.png") no-repeat;
    background-color: blueviolet;
+   width: 15px;
+   height: 15px;
+   display: inline-block;
+   margin-bottom: -3px;
+   margin-right: 3px;
+   margin-top: 5px;
    
 }
