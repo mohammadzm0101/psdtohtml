@@ -191,6 +191,22 @@ header .navbars .logoiconBox .iconCall{
    float: right;
    border-right: rgba(238 , 238, 238, 0.9) solid 1px;
 }
+header .navbars .logoiconBox .iconCall #iconCall{
+    background: url("../images/iconCall.png") no-repeat;
+    width: 60px;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+    margin: 30px 17px 0 0;
+}
+header .navbars .logoiconBox .iconCall h4{
+    color: rgba(255 , 102, 51, 1);
+    font-size: 9pt;
+    text-align: center;
+
+
+}
+
 header .navbars .logoiconBox .iconBuy{
     width: 91px;
     height: 141px;
