@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('../fonts/Vazir-Bold-FD-WOL.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Medium-FD-WOL.eot');
+    src: url('../fonts/Vazir-Medium-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Medium-FD-WOL.woff') format('woff'),
+    url('../fonts/Vazir-Medium-FD-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-FD-WOL.eot');
+    src: url('../fonts/Vazir-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-FD-WOL.woff') format('woff'),
+    url('../fonts/Vazir-FD-WOL.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../font/Vazir-Light-FD-WOL.eot');
+    src: url('../fonts/Vazir-Light-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Light-FD-WOL.woff') format('woff'),
+    url('../fonts/Vazir-Light-FD-WOL.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Thin-FD-WOL.eot');
+    src: url('../fonts/Vazir-Thin-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Thin-FD-WOL.woff') format('woff'),
+    url('../fonts/Vazir-Thin-FD-WOL.ttf') format('truetype');
+    font-weight: 100;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    font-family: Vazir;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0 none;
+    direction:rtl;
+    list-style-type: none;
+}
+/*for same sections
+first html styling in css & have point for styling this way name is involute
+just can use 5 level meant 5 class or id after maybe browser cant understand but ul or ... can
+first after styling ofcurse      1 size        2 color        3then content*/ 
+header{
+    width: 100%;
+    height: 141px;
+    overflow: hidden;
+    border-bottom: rgba(223 , 223, 223, 0.9) solid 1px;
+}
+header .navbars{
+     width: 1024px;
+     height: 141px;
+     margin: 0 auto;
+     background-color: rgb(255 , 255, 255);
+}
+header .navbars .items{
+    width: 700px;
+    height: 71px;
+    background-color: #ffffff;
+}
+header .navbars .items ul{
+    margin-right: -14px;
+}
+header .navbars .items ul li{
+     float: right;
+     margin: 32px 34px 0 0;
+     position: relative; 
+}
+header .navbars .items ul li a{
+    display: inline-block;
+    text-align: center; 
+    line-height: 100%;
+}
+header .navbars .items ul li::after{
+    content:"";
+    width: 1px;
+    height: 13px;
+    background-color: rgba(232 , 231, 231, 0.9);
+    position: absolute;
+    bottom: 9px;
+    left: -17px;
+}
+header .navbars .items ul li:last-child::after{
+    content: none;
+}
+header .navbars .items ul li a h4{
+    color: #27bec4;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+}
+header .navbars .items ul li a h5{
+   color: rgba(100, 100, 100, 0.9);
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-left: 4px;
+}
+header .navbars .items ul li a h5 #log{
+    letter-spacing: normal;
+
+}
+header .navbars .items ul li i.userIcon{
+    background-image: url("../images/userIcon.png");
+    width: 19px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+header .navbars .searchBox{
+    width: 538px;
+    height: 33px;
+    float: right;
+    overflow: hidden;
+    border: rgba(245,245,245,0.9) solid 1px;
+    border-radius: 2px;
+    margin-right: 21px;
+}    
+header .navbars .searchBox form{
+   background-color: rgba(245,245,245,0.9);
+   position: relative;
+}
+header .navbars .searchBox form::before{
+    content: "";
+    background-color:rgb(219,216,216);
+    width: 1px;
+    height: 19px;
+    position: absolute;
+    top: 7px;
+    right: 502px;
+}
+header .navbars .searchBox form #searchIn{
+    padding-right: 13px;
+    background-color:rgba(245,245,245,0.9);
+    color:rgb(194 , 194, 194);
+    height: 33px;
+    width: 495px;
+    margin-right: 2px;
+}
+
+header .navbars .searchBox form #searchIn::placeholder{
+    color: rgb(194 , 194, 194);
+    opacity: 1;
+}
+header .navbars .searchBox form #searchIn:-ms-input-placeholder{
+    color: rgb(194 , 194, 194);
+}
+header .navbars .searchBox form #searchIn::-ms-input-placeholder{
+    color: rgb(194 , 194, 194);
+}
+header .navbars .searchBox form .searchBu{
+    background-color: rgba(245,245,245,0.9) ;
+    padding: 9px 6px 12px 8px;
+    margin-right: 5px;    
+}
+header .navbars .searchBox form .searchBu #searchBuIcon{
+   background: url("../images/searchIn.png") no-repeat;
+   background-color: rgba(245,245,245,0.9);
+   width: 15px;
+   height: 15px;
+   display: inline-block;
+   margin-bottom: -3px;  
+   margin-left: -2px;
+}
+header .navbars .logoiconBox{
+    width: 324px;
+    height: 141px;
+    float: left;
+    margin-top: -71px;
+}
+header .navbars .logoiconBox .iconCall{ 
+    width: 91px;
+   height: 141px;
+   float: right;
+   border-right: rgba(238 , 238, 238, 0.9) solid 1px;
+}
+header .navbars .logoiconBox .iconCall #iconCall{
+    background: url("../images/iconCall.png") no-repeat;
+    width: 60px;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+    margin: 30px 17px 0 0;
+}
+header .navbars .logoiconBox .iconCall h4{
+    color: rgba(255 , 102, 51, 1);
+    font-size: 9pt;
+    text-align: center;
+
+
+}
+
+header .navbars .logoiconBox .iconBuy{
+    width: 91px;
+    height: 141px;
+    border-right: rgba(238 , 238, 238, 0.9) solid 1px;
+    float: right;
+ }
+ header .navbars .logoiconBox .logo{
+    border-right: rgba(238 , 238, 238, 0.9) solid 1px;
+    float: right;
+    width: 139px;
+    height: 141px;
+ }
+
