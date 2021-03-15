@@ -219,10 +219,43 @@ header .navbars .logoiconBox .iconBuy{
     border-right: rgba(238 , 238, 238, 0.9) solid 1px;
     float: right;
  }
+ header .navbars .logoiconBox .iconBuy #iconBuy{
+     background: url("../images/iconBuy.png") no-repeat;
+     width: 70px;
+     height: 74px;
+     display: block;
+     margin: 19px 10px 0 0;
+ }
+ header .navbars .logoiconBox .iconBuy h4{
+     text-align: center;
+     line-height: 16px;
+
+ }
+ header .navbars .logoiconBox .iconBuy h4 #iconBuytext1{
+     font-size: 9pt;
+     color: rgba(163 , 163 ,163, 1);
+     
+ }
+ header .navbars .logoiconBox .iconBuy h4 #iconBuytext2{
+     color: rgba(255 , 255, 255, 1);
+     background-color: rgba(255 , 102, 51, 1);
+     font-size: 9pt;
+
+
+ }
+ header .navbars .logoiconBox .iconBuy h4 #iconBuytext3{
+     color: rgba(255 , 102, 51, 1);
+     font-size:8pt;
+
+ }
  header .navbars .logoiconBox .logo{
     border-right: rgba(238 , 238, 238, 0.9) solid 1px;
     float: right;
     width: 139px;
     height: 141px;
  }
-
+ header .navbars .logoiconBox .logo img{
+     width: 81px;
+     height: 103px;
+     padding: 21px 21px 0 0; 
+ }
