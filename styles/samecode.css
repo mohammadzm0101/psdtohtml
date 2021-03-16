@@ -229,23 +229,36 @@ header .navbars .logoiconBox .iconBuy{
  header .navbars .logoiconBox .iconBuy h4{
      text-align: center;
      line-height: 16px;
+ 
 
  }
  header .navbars .logoiconBox .iconBuy h4 #iconBuytext1{
      font-size: 9pt;
      color: rgba(163 , 163 ,163, 1);
+     display: block;
+     margin-right: -19px;
+     margin-top: 10px;
      
  }
  header .navbars .logoiconBox .iconBuy h4 #iconBuytext2{
      color: rgba(255 , 255, 255, 1);
      background-color: rgba(255 , 102, 51, 1);
      font-size: 9pt;
+     width: fit-content;
+     height: fit-content;
+     margin-right: 70px;
+     margin-top: -19px;
+     display: block;
+     
+
 
 
  }
  header .navbars .logoiconBox .iconBuy h4 #iconBuytext3{
      color: rgba(255 , 102, 51, 1);
      font-size:8pt;
+display: inline-block;
+margin-top: -10px;
 
  }
  header .navbars .logoiconBox .logo{
