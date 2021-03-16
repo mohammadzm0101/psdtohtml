@@ -226,42 +226,38 @@ header .navbars .logoiconBox .iconBuy{
      display: block;
      margin: 19px 10px 0 0;
  }
- header .navbars .logoiconBox .iconBuy h4{
-     text-align: center;
-     line-height: 16px;
-   
-
- }
  header .navbars .logoiconBox .iconBuy h4 #iconBuytext1{
      font-size: 9pt;
      color: rgba(163 , 163 ,163, 1);
- }
- header .navbars .logoiconBox .iconBuy h4 #iconBuytext11{
-    
+     margin-top: 2px;
+     margin-right: 14px;
+     display: inline-block;
  }
  header .navbars .logoiconBox .iconBuy h4 #iconBuytext2{
      color: rgba(255 , 255, 255, 1);
      background-color: rgba(255 , 102, 51, 1);
-     font-size: 9pt;
+     font-size: 8pt;
      margin-top: 4px;
-   
+    margin-left: 14px;
+     float: left;
      border-radius: 2px;
-     padding-top: 2px;
      padding-right: 3px;
      padding-left: 3px;
-     display: inline-block;
-
-
+     display: block;
+     width: fit-content;
+     height: fit-content;
  }
  header .navbars .logoiconBox .iconBuy h4 #iconBuytext21{
-     margin-bottom: -2px;
+     margin-bottom: -3px;
      display: inline-block;
+     
 
  }
  header .navbars .logoiconBox .iconBuy h4 #iconBuytext3{
      color: rgba(255 , 102, 51, 1);
      font-size:8pt;
-
+     display: inline-block;
+     margin-right: 14px;
  }
  header .navbars .logoiconBox .logo{
     border-right: rgba(238 , 238, 238, 0.9) solid 1px;
