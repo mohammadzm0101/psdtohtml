@@ -52,6 +52,7 @@ h4{
     border: 0 none;
     direction:rtl;
     list-style-type: none;
+    box-sizing: border-box;
 }
 /*for same sections
 first html styling in css & have point for styling this way name is involute
@@ -269,3 +270,61 @@ header .navbars .logoiconBox .iconBuy{
      height: 103px;
      padding: 21px 21px 0 0; 
  }
+ section{
+     background-color: rgb(245 , 245, 245);
+     width: 100%;
+     height: 100%;
+    
+ }
+ section .main{
+      width: 1024px;
+      height: 100%;
+      margin: 0 auto;
+
+ }
+section .main .vetBars{
+    width: 779px;
+    height: 276px;
+    border: solid 1px;
+    margin-right: 12px;
+    margin-top: 14px;
+    display: inline-block;
+   
+} 
+section .main .vetBars .items{
+    width: 196px;
+    height: 276px;
+    float: right;
+    border-left: solid 1px;
+    
+}
+section .main .vetBars .items ul{
+
+
+}
+section .main .vetBars .items ul li {
+    border-bottom: blue solid 1px;
+    background-color: rgb(255 , 255, 255);
+    padding-right: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+}
+section .main .vetBars .items ul li a{
+    display: block;
+ 
+}
+section .main .vetBars .items ul li a h4{
+    font-size: 11pt;
+    font-weight: bold;
+    color: rgba(39 , 190, 196, 1);
+
+
+}
+section .main .vetBars .items ul li a h6{
+    font-weight: bold;
+    font-size: 9pt;
+    color: rgba(185 , 185, 185, 1);
+
+}
