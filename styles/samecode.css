@@ -62,17 +62,16 @@ header{
     height: 141px;
     overflow: hidden;
     border-bottom: rgba(223 , 223, 223, 0.9) solid 1px;
+    background-color: rgb(255 , 255, 255);
 }
 header .navbars{
      width: 1024px;
      height: 141px;
      margin: 0 auto;
-     background-color: rgb(255 , 255, 255);
 }
 header .navbars .items{
     width: 700px;
     height: 71px;
-    background-color: #ffffff;
 }
 header .navbars .items ul{
     margin-right: -14px;
