@@ -145,7 +145,7 @@ header .navbars .searchBox form::before{
     top: 7px;
     right: 502px;
 }
-header .navbars .searchBox form #searchIn{
+header .navbars .searchBox form input[type=search]{
     padding-right: 13px;
     background-color:rgba(245,245,245,0.9);
     color:rgb(194 , 194, 194);
@@ -154,14 +154,14 @@ header .navbars .searchBox form #searchIn{
     margin-right: 2px;
 }
 
-header .navbars .searchBox form #searchIn::placeholder{
+header .navbars .searchBox form input[type=search]::placeholder{
     color: rgb(194 , 194, 194);
     opacity: 1;
 }
-header .navbars .searchBox form #searchIn:-ms-input-placeholder{
+header .navbars .searchBox form input[type=search]:-ms-input-placeholder{
     color: rgb(194 , 194, 194);
 }
-header .navbars .searchBox form #searchIn::-ms-input-placeholder{
+header .navbars .searchBox form #input[type=search]::-ms-input-placeholder{
     color: rgb(194 , 194, 194);
 }
 header .navbars .searchBox form .searchBu{
