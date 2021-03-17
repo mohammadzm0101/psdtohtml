@@ -8,10 +8,11 @@ For other page like index or … like up.
 After end coding html : W3 validator: check our html code standard or no for seo or 
 speed: font image 
 
-Psd point: After drag & drop images for icons or … use eye background click
+Psd point: 
 
 challenges: Icons: create font icon .svg if cant png photo but can compress & with alittle size use ????
 
 
-
+learn git & github spacielized
 Learn vs code
+l
