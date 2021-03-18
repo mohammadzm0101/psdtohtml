@@ -308,6 +308,7 @@ section .main .vetBars .items ul li {
     padding-right: 19px;
     padding-top: 15px;
     padding-bottom: 15px;
+    position: relative;
     
 
 }
@@ -326,5 +327,13 @@ section .main .vetBars .items ul li a h6{
     font-weight: bold;
     font-size: 9pt;
     color: rgba(185 , 185, 185, 1);
+
+}
+section .main .vetBars .items ul li a i{
+    position: absolute;
+    bottom: 25px;
+    right: 170px;
+    color: rgb(41 , 191, 196);
+    font-size: 20px;
 
 }
