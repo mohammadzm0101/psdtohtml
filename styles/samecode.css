@@ -293,3 +293,18 @@ section .main .slider .verBarsPhoto .verBars{
     height: 276px;
     background-color: rgb(255 , 255, 255);
 }
+section .main .slider .verBarsPhoto .verBars ul li a{
+    
+}
+section .main .slider .verBarsPhoto .verBars ul li a h4{
+   display: block;
+}
+section .main .slider .verBarsPhoto .verBars ul li a h6{
+    display: inline-block;
+}
+section .main .slider .verBarsPhoto .verBars i{
+    color: rgb(39 , 190, 196);
+    font-size: 40px;
+    display: inline-block;
+    padding-right: 80px;
+}
