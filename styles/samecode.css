@@ -293,18 +293,19 @@ section .main .slider .verBarsPhoto .verBars{
     height: 276px;
     background-color: rgb(255 , 255, 255);
 }
-section .main .slider .verBarsPhoto .verBars ul li a{
+section .main .slider .verBarsPhoto .verBars ul li{
+border-bottom: rgba(100, 100, 100, 0.9) solid;
     
 }
 section .main .slider .verBarsPhoto .verBars ul li a h4{
-   display: block;
+   
 }
 section .main .slider .verBarsPhoto .verBars ul li a h6{
-    display: inline-block;
+
 }
-section .main .slider .verBarsPhoto .verBars i{
+section .main .slider .verBarsPhoto .verBars ul li a i{
     color: rgb(39 , 190, 196);
     font-size: 40px;
-    display: inline-block;
-    padding-right: 80px;
+    margin-right: 120px;
+    margin-top: -30px;
 }
