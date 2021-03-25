@@ -128,7 +128,7 @@ header .navbars .searchBox{
     width: 538px;
     height: 33px;
     float: right;
-    overflow: hidden;
+ 
     border: rgba(245,245,245,0.9) solid 1px;
     border-radius: 2px;
     margin-right: 21px;
@@ -136,6 +136,7 @@ header .navbars .searchBox{
 header .navbars .searchBox form{
    background-color: rgba(245,245,245,0.9);
    position: relative;
+   margin-top: -1px;
 }
 header .navbars .searchBox form::before{
     content: "";
@@ -378,4 +379,7 @@ section .main .slider .verBarsPhoto .verBars ul li a i{
     position: absolute;
     bottom: 11px;
     right: 155px;
+}
+section .main .slider .siteServices{
+    
 }
