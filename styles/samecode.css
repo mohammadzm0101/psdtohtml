@@ -176,7 +176,7 @@ header .navbars .searchBox form .searchBu #searchBuIcon{
    width: 15px;
    height: 15px;
    display: inline-block;
-   margin-bottom: -3px;  
+   margin-bottom: -2px;  
    margin-left: -2px;
 }
 header .navbars .logoiconBox{
@@ -287,24 +287,95 @@ section .main .slider .verBarsPhoto{
     width: 781px;
     height: 276px;
     background: rgb(201 , 201, 201) url('../images/verBarsPhoto.png') no-repeat;
+    margin-right: 10px;
+    margin-top: 14px;
+    display: inline-block;
+    
+   
 }
 section .main .slider .verBarsPhoto .verBars{
     width: 196px;
-    height: 276px;
+    height: 277px;
     background-color: rgb(255 , 255, 255);
-}
-section .main .slider .verBarsPhoto .verBars ul li a{
+    margin-top: -1px;
     
 }
+section .main .slider .verBarsPhoto .verBars ul li:nth-child(1){
+    border-top:rgba(227 , 225, 225, 0.8) solid 1px; 
+    border-bottom: rgba(227 , 225, 225, 0.5) solid 1px; 
+    border-right: rgba(227 , 225, 225, 0.5) solid 1px; 
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    position: relative;
+} 
+section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover{
+    
+    border-right: #27bec4 solid 6px;
+   
+    padding-right: 14px;
+  
+  
+ 
+}
+section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover a{
+    display: block;
+    border-right: rgba(227 , 225, 225, 0.5) solid 1px;
+    margin-right: -20px;
+    padding-right: 20px;
+    margin-top: -16px;
+    padding-top: 16px;
+    margin-bottom: -16px;
+    padding-bottom: 16px;
+}
+section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover i{
+    color: #27bec4 ;
+    font-size: 40px;
+    position: absolute;
+    bottom: 11px;
+    right: 150px;
+
+}
+section .main .slider .verBarsPhoto .verBars ul li:nth-child(2){
+    border-bottom: rgba(227 , 225, 225, 0.5) solid 1px; 
+    border-right: rgba(227 , 225, 225, 0.5) solid 1px; 
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+section .main .slider .verBarsPhoto .verBars ul li:nth-child(3){
+    border-bottom: rgba(227 , 225, 225, 0.5) solid 1px; 
+    border-right: rgba(227 , 225, 225, 0.5) solid 1px; 
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    position: relative;
+}
+section .main .slider .verBarsPhoto .verBars ul li:last-child{
+    border-bottom: rgba(227 , 225, 225, 0.8) solid 1px;
+    border-right: rgba(227 , 225, 225, 0.5) solid 1px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    position: relative;
+    background-color:rgb(255 , 255, 255);   
+}
 section .main .slider .verBarsPhoto .verBars ul li a h4{
-   display: block;
+    color: #27bec4;
+    font-size: 11pt;
+    font-weight: bold;
 }
 section .main .slider .verBarsPhoto .verBars ul li a h6{
-    display: inline-block;
+    font-weight: bold;
+    font-size: 10pt;
+    color: rgba(176 , 174, 174, 1);
 }
-section .main .slider .verBarsPhoto .verBars i{
-    color: rgb(39 , 190, 196);
+section .main .slider .verBarsPhoto .verBars ul li a i{
+    color: rgba(204 , 204, 204, 0.8);
     font-size: 40px;
-    display: inline-block;
-    padding-right: 80px;
+    position: absolute;
+    bottom: 11px;
+    right: 155px;
 }
