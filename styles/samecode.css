@@ -112,6 +112,7 @@ header .navbars .items ul li a h5{
     letter-spacing: 2px;
     text-align: center;
     padding-left: 4px;
+    line-height: 17 px;
 }
 header .navbars .items ul li a h5 #log{
     letter-spacing: normal;
@@ -267,9 +268,10 @@ header .navbars .logoiconBox .iconBuy{
     height: 141px;
  }
  header .navbars .logoiconBox .logo img{
-     width: 81px;
+     width: 82px;
      height: 103px;
-     padding: 21px 21px 0 0; 
+     margin-top: 19px;
+     margin-right: 15px;
  }
  section{
      background-color: rgb(245 , 245, 245);
@@ -307,25 +309,25 @@ section .main .slider .verBarsPhoto .verBars ul li:nth-child(1){
     border-right: rgba(227 , 225, 225, 0.5) solid 1px; 
     padding-top: 16px;
     padding-right: 20px;
-    padding-bottom: 16px;
+    padding-bottom: 15px;
     position: relative;
 } 
 section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover{
     
-    border-right: #27bec4 solid 6px;
-   
+    border-right: #27bec4 solid 5px;
     padding-right: 14px;
-  
+    
+    margin-right: 1px;
   
  
 }
 section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover a{
     display: block;
-    border-right: rgba(227 , 225, 225, 0.5) solid 1px;
+    border-right: rgba(204 , 204, 204, 1) solid 1px;
     margin-right: -20px;
     padding-right: 20px;
-    margin-top: -16px;
-    padding-top: 16px;
+    margin-top: -17px;
+    padding-top: 17px;
     margin-bottom: -16px;
     padding-bottom: 16px;
 }
@@ -342,7 +344,7 @@ section .main .slider .verBarsPhoto .verBars ul li:nth-child(2){
     border-right: rgba(227 , 225, 225, 0.5) solid 1px; 
     padding-top: 15px;
     padding-right: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 14px;
     position: relative;
     
 }
@@ -359,7 +361,7 @@ section .main .slider .verBarsPhoto .verBars ul li:last-child{
     border-right: rgba(227 , 225, 225, 0.5) solid 1px;
     padding-top: 15px;
     padding-right: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 14px;
     position: relative;
     background-color:rgb(255 , 255, 255);   
 }
@@ -381,5 +383,87 @@ section .main .slider .verBarsPhoto .verBars ul li a i{
     right: 155px;
 }
 section .main .slider .siteServices{
-    
+    width: 781px;
+    height: 62px;
+    margin-right: 10px;
+    margin-top: 19px;
+    background-color: rgba(255 , 255, 255, 1);
+    border: rgba(204 , 204, 204, 1) solid 1px;
+    float: right;
+}
+section .main .slider .siteServices .fastDelivery{
+    margin: 10px 16px;
+    display: inline-block;
+}
+section .main .slider .siteServices .fastDelivery::after{
+    content:"";
+    display: block;
+    width: 1px;
+    height: 37px;
+    background-color: rgba(220 , 220, 220, 1);
+   
+}
+section .main .slider .siteServices .fastDelivery #fastDelivery{
+    background: url("../images/fastDeliveryIcon.png") no-repeat;
+    width: 35px;
+    height: 30px;
+    display: block;
+}
+section .main .slider .siteServices .fastDelivery a h4{
+    font-weight: bold;
+    font-size: 9pt;
+    color: rgba(100 , 100, 100, 1);
+    line-height: 15px;
+
+   
+}
+section .main .slider .siteServices .fastDelivery a h4 span{
+    font-size: 7pt;
+    color: rgba(140 ,140 ,140 ,1);
+}
+section .main .slider .siteServices .instantPayment{
+  margin-top: 10px;
+}
+section .main .slider .siteServices .instantPayment::after{
+    content:"";
+    display: block;
+    width: 1px;
+    height: 37px;
+    background-color: rgba(220 , 220, 220, 1);
+}
+section .main .slider .siteServices .instantPayment a #instantPayment{
+    background: url("../images/instantPaymentIcon.png") no-repeat;
+    width: 34px;
+    height: 30px;
+    display: block;
+}
+section .main .slider .siteServices .instantPayment a h4{
+    margin-bottom: -10px;
+    display: block;
+    font-weight: bold;
+    font-size: 9pt;
+    color: rgba(100 , 100, 100, 1);
+   
+section .main .slider .siteServices .instantPayment a h4 span{
+    font-size: 7pt;
+    color: rgba(140 ,140 ,140 ,1);
+}
+section .main .slider .siteServices .guarantee{
+    margin-right: 8px;
+    display: inline-block;
+}
+section .main .slider .siteServices .guarantee a #guarantee{
+    background: url("../images/guarantee.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+section .main .slider .siteServices .guarantee a h4{
+    font-weight: bold;
+    font-size: 9pt;
+    color: rgba(100 , 100, 100, 1);
+}
+section .main .slider .siteServices .guarantee a h4 span{
+    font-size: 7pt;
+    color: rgba(140 ,140 ,140 ,1);
 }
