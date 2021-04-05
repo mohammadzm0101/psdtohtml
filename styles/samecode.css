@@ -276,7 +276,6 @@ header .navbars .logoiconBox .iconBuy{
      background-color: rgb(245 , 245, 245);
      width: 100%;
      height: 100%;
-    
  }
 section .slider{
     width: 1024px;
@@ -285,7 +284,7 @@ section .slider{
 }
 section .slider #socialMedia{
     float: left;
-    margin: 13px 14px 0 0;
+    margin: 13px 0 0 11px;
     
 }
 section .slider #socialMedia #aparat{
@@ -296,12 +295,14 @@ section .slider #socialMedia #aparat{
 
 }
 section .slider #socialMedia #aparat img{
-     margin
+     margin: 17px 32px 0 0;
 }
 section .slider #socialMedia #aparat h4{
     color: rgba(153 , 153, 153, 1);
-    font-size: 9pt;
+    font-size: 8pt;
     text-align: center;
+   display: block;
+   margin-top: 6px;
 
 }
 section .slider #socialMedia #aparat h4 span{
@@ -316,13 +317,26 @@ section .slider #socialMedia #telegram{
     background-color: rgba(255 , 255, 255, 1);
 }
 section .slider #socialMedia #telegram i{
-
+   color: rgba(185 ,185 ,185 ,1);
+   font-size: 40px;
+   display: block;
+   margin: 17px 83px 4px 0;
 
 }
 section .slider #socialMedia #telegram h4{
+   color: rgba(137 ,137 ,137 ,0.8);
+   font-size: 9pt;
+   text-align: center;
 
 }
+section .slider #socialMedia #telegram h4 span{
+    color:rgba(53 ,160 ,222 ,1);
+}
 section .slider #socialMedia #telegram h5{
+    color: rgba(163 ,163 ,163 ,0.8);
+    font-size: 8pt;
+    text-align: center;
+
 
 }
 section .slider #socialMedia #news{
@@ -330,6 +344,41 @@ section .slider #socialMedia #news{
     height: 134px;
     border: solid 1px rgba(213 , 213, 213, 0.8);
     background-color: rgba(255 , 255, 255, 1);
+}
+section .slider #socialMedia #news div{
+    width: 189px;
+    height: 119px;
+    border-right: solid rgba(204, 204, 204, 1) 1px;
+    border-left: solid rgba(204, 204, 204, 1) 1px;
+    margin-top: -100px;
+    margin-right: 8px;
+
+}
+section .slider #socialMedia #news div::after{
+
+}
+section .slider #socialMedia #news div::before{
+    
+}
+section .slider #socialMedia #news::before{
+    content: "";
+    width: 4px;
+    height: 80px;
+    display: block;
+    margin: 30px 4px 0 0;
+    background-image: linear-gradient(to right, rgba(204, 204, 204, 1), rgba(204, 204, 204, 0.4));
+    
+    box-shadow: 1px 1px 2px 1px rgba(204, 204, 204, 0.3);
+
+}
+section .slider #socialMedia #news::after{
+    box-shadow: 2px 4px 8px 3px rgba(204, 204, 204, 0.5);
+    content: "";
+    width: 0;
+    height: 80px;
+    display: block;
+    margin: -80px 0 0 20px;
+    float: left;
 }
 section .slider .verBarsPhoto{
     width: 781px;
