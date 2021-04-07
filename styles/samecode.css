@@ -347,25 +347,37 @@ section .slider #socialMedia #news{
 }
 section .slider #socialMedia #news div{
     width: 189px;
-    height: 119px;
-    border-right: solid rgba(204, 204, 204, 1) 1px;
+    height: 55px;
+    border-right: solid rgba(204, 204, 204, 0.8) 1px;
     border-left: solid rgba(204, 204, 204, 1) 1px;
-    margin-top: -100px;
-    margin-right: 8px;
+    margin-top: -70px;
+    margin-right: 10px;
 
 }
 section .slider #socialMedia #news div::after{
-
+    content: "";
+    width: 2px;
+    height: 80px;
+    display: block;
+    background-color: brown;
+    margin: -60px 170px 0 0; 
 }
 section .slider #socialMedia #news div::before{
-    
+    content: "";
+    width: 2px;
+    height: 140px;
+    display: inline-block;
+
+   
+   margin-top: -40px;
+    background-image: linear-gradient(to top, rgba(204, 204, 204, 0), rgba(204, 204, 204, 0.4), rgba(204, 204, 204, 0.7),rgba(204, 204, 204, 0.9) ,rgba( rgba(204, 204, 204, 1), rgba(204, 204, 204, 0.9), rgba(204, 204, 204, 0.7), rgba(204, 204, 204, 0.4),rgba(204, 204, 204, 0)); 
 }
 section .slider #socialMedia #news::before{
     content: "";
     width: 4px;
     height: 80px;
     display: block;
-    margin: 30px 4px 0 0;
+    margin: 30px 1px 0 0;
     background-image: linear-gradient(to right, rgba(204, 204, 204, 1), rgba(204, 204, 204, 0.4));
     
     box-shadow: 1px 1px 2px 1px rgba(204, 204, 204, 0.3);
