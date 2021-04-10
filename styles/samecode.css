@@ -346,6 +346,30 @@ section .slider #socialMedia #news{
     background-color: rgb(51 ,204 ,204);
     
 }
+section .slider #socialMedia #news img{
+    display: block;
+    width: 25px;
+    height: 23px;
+    margin-top: -117px;
+    margin-right: 121px;
+}
+section .slider #socialMedia #news h4{
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    
+    
+}
+section .slider #socialMedia #news h4 span{
+    line-height: 0.1px;
+}
+section .slider #socialMedia #news h5{
+    color: white;
+    text-align: center;
+    font-size: 8pt;
+}
+section .slider #socialMedia #news h5 span{
+}
 section .slider #socialMedia #news div::after{
     content: "";
     width: 3px;
@@ -354,29 +378,29 @@ section .slider #socialMedia #news div::after{
     margin-top: -90px;
     margin-left: 10px;
     float: left;
-    background-image: linear-gradient(to left, rgba(51 ,204 ,204, 0.8), rgba(51 ,204 ,204, 0.6));
-    box-shadow: -2px 0 7px 3px rgba(51 ,204 ,204, 0.6);
+    background-image: linear-gradient(to left, rgba(41, 176, 181, 0.6), rgba(41, 176, 181, 0.2));
+    box-shadow: -2px 0 7px 3px rgba(41, 176, 181, 0.5);
 }
 section .slider #socialMedia #news div::before{
     content: "";
-    width: 3px;
+    width: 2px;
     height: 119px;
     display: block;
     margin-left: 13px;
     float: left;
     margin-top: -120px;
-    background-image: linear-gradient(to top, rgba(51 ,204 ,204, 0.4), rgba(51 ,204 ,204, 0.8), rgba(51 ,204 ,204, 1), rgba(51 ,204 ,204, 0.8), rgba(51 ,204 ,204, 0.4));
-    box-shadow: -2px 0 7px 2px rgba(51 ,204 ,204, 0.8);
+    background-image: linear-gradient(to top, rgba(41, 176, 181, 0.2), rgba(41, 176, 181, 1), rgba(41, 176, 181, 0.2));
+    box-shadow: -1px 0 5px 1px rgba(41, 176, 181, 0.5);
 }
 section .slider #socialMedia #news::before{
     content: "";
-    width: 3px;
+    width: 2px;
     height: 119px;
     display: block;
     margin-top: 7px;
     margin-right: 11px;
-    background-image: linear-gradient(to right, rgba(121, 117, 117, 0.6), rgba(121, 117, 117, 0.4));
-    box-shadow: 3px 0 5px 3px rgba(121, 117, 117, 0.3);
+    background-image: linear-gradient(to top, rgba(41, 176, 181, 0.2), rgba(41, 176, 181, 1), rgba(41, 176, 181, 0.2));
+    box-shadow: 1px 0 5px 1px rgba(41, 176, 181, 0.5);
 }
 section .slider #socialMedia #news::after{
     content: "";
@@ -385,6 +409,8 @@ section .slider #socialMedia #news::after{
     display: block;
     margin-top: -87px;
     margin-right: 8px;
+    background-image: linear-gradient(to right, rgba(41, 176, 181, 0.6), rgba(41, 176, 181, 0.2));
+    box-shadow: 2px 0 7px 3px rgba(41, 176, 181, 0.5);
 }
 section .slider .verBarsPhoto{
     width: 781px;
