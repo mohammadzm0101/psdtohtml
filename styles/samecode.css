@@ -357,14 +357,33 @@ section .slider #socialMedia #news h4{
     color: white;
     text-align: center;
     font-size: 12pt;
-    display: block;
     margin-top: -110px;
 }
 section .slider #socialMedia #news h4 span{
-    word-spacing: 2px;
     color: red;
-    margin-top: 30px;
-    display: inline-block;
+}
+section .slider #socialMedia #news h4 span#crowInformerText{
+      display: block ;
+      margin-right: -15px;
+}
+section .slider #socialMedia #news h4 span#crowInformerText1{
+    margin-top: -10px;
+    color: blue;
+    margin-left: -10px;
+    display: block;
+    margin-top: -30px;
+}
+section .slider #socialMedia #news h4 span#crowInformerText2{
+         margin-top: 10px;
+         display: block;
+         margin-top: -25px;
+         margin-left: -42px;
+}
+section .slider #socialMedia #news h4 span#crowInformerText3{
+    display: block;
+    margin-left: -85px;
+    margin-top: -27px;
+
 }
 section .slider #socialMedia #news h5{
     color: white;
