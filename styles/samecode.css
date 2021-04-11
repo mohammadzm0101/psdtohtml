@@ -357,18 +357,24 @@ section .slider #socialMedia #news h4{
     color: white;
     text-align: center;
     font-size: 12pt;
-    
-    
+    display: block;
+    margin-top: -110px;
 }
 section .slider #socialMedia #news h4 span{
-    line-height: 0.1px;
+    word-spacing: 2px;
+    color: red;
+    margin-top: 30px;
+    display: inline-block;
 }
 section .slider #socialMedia #news h5{
     color: white;
     text-align: center;
     font-size: 8pt;
+    display: block;
+    margin-top: 10px;
 }
 section .slider #socialMedia #news h5 span{
+    
 }
 section .slider #socialMedia #news div::after{
     content: "";
