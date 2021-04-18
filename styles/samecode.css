@@ -347,14 +347,15 @@ section .slider #socialMedia #news img{
     display: block;
     width: 25px;
     height: 23px;
-    margin-top: -117px;
-    margin-right: 121px;
+    margin-top: -120px;
+    margin-right: 122px;
 }
 section .slider #socialMedia #news h4{
     color: white;
     text-align: center;
     font-size: 12pt;
-    margin-top: 10px;
+    margin-top: -6px;
+    margin-left: 5px;
 }
 section .slider #socialMedia #news h4 span#crowInformerText{
       display: block ;
@@ -393,7 +394,7 @@ section .slider #socialMedia #news h5 span#crowInformerText4{
 section .slider #socialMedia #news h5 span#crowInformerText5{
     display: block;
     margin-top: -7px;
-    margin-left: 41px;
+    margin-left: 40px;
     letter-spacing: 1px;
 
 
@@ -403,7 +404,7 @@ section .slider #socialMedia #news div::after{
     width: 3px;
     height: 60px;
     display: block;
-    margin-top: -30px;
+    margin-top: -10px;
     margin-left: -5px;
     float: left;
     background-image: linear-gradient(to left, rgba(41, 176, 181, 0.6), rgba(41, 176, 181, 0.2));
@@ -416,7 +417,7 @@ section .slider #socialMedia #news div::before{
     display: block;
     margin-left: 8px;
     float: left;
-    margin-top: -60px;
+    margin-top: -40px;
     background-image: linear-gradient(to top, rgba(41, 176, 181, 0.2), rgba(41, 176, 181, 1), rgba(41, 176, 181, 0.2));
     box-shadow: -1px 0 5px 1px rgba(41, 176, 181, 0.5);
 }
@@ -439,6 +440,11 @@ section .slider #socialMedia #news::after{
     margin-right: 5px;
     background-image: linear-gradient(to right, rgba(41, 176, 181, 0.6), rgba(41, 176, 181, 0.2));
     box-shadow: 2px 0 7px 3px rgba(41, 176, 181, 0.5);
+}
+section .slider #socialMedia #news div#newsText h4{
+    font-size: 7pt;
+    font-weight: 200;
+    letter-spacing: -1px;
 }
 section .slider .verBarsPhoto{
     width: 781px;
