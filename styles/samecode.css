@@ -399,25 +399,25 @@ section .slider #socialMedia #news h5 span#crowInformerText5{
 
 
 }
-section .slider #socialMedia #news div::after{
+section .slider #socialMedia #news div#cader::after{
     content: "";
     width: 3px;
     height: 60px;
     display: block;
-    margin-top: -10px;
+    margin-top: -12px;
     margin-left: -5px;
     float: left;
     background-image: linear-gradient(to left, rgba(41, 176, 181, 0.6), rgba(41, 176, 181, 0.2));
     box-shadow: -2px 0 7px 3px rgba(41, 176, 181, 0.5);
 }
-section .slider #socialMedia #news div::before{
+section .slider #socialMedia #news div#cader::before{
     content: "";
     width: 2px;
     height: 119px;
     display: block;
     margin-left: 8px;
     float: left;
-    margin-top: -40px;
+    margin-top: -42px;
     background-image: linear-gradient(to top, rgba(41, 176, 181, 0.2), rgba(41, 176, 181, 1), rgba(41, 176, 181, 0.2));
     box-shadow: -1px 0 5px 1px rgba(41, 176, 181, 0.5);
 }
@@ -426,7 +426,7 @@ section .slider #socialMedia #news::before{
     width: 2px;
     height: 119px;
     display: block;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-right: 8px;
     background-image: linear-gradient(to top, rgba(41, 176, 181, 0.2), rgba(41, 176, 181, 1), rgba(41, 176, 181, 0.2));
     box-shadow: 1px 0 5px 1px rgba(41, 176, 181, 0.5);
@@ -436,15 +436,65 @@ section .slider #socialMedia #news::after{
     width: 3px;
     height: 60px;
     display: block;
-    margin-top: -30px;
+    margin-top: -67px;
     margin-right: 5px;
     background-image: linear-gradient(to right, rgba(41, 176, 181, 0.6), rgba(41, 176, 181, 0.2));
     box-shadow: 2px 0 7px 3px rgba(41, 176, 181, 0.5);
+}
+section .slider #socialMedia #news div#newsText{
+    margin-top: 8px;
+    margin-right: 9px;
 }
 section .slider #socialMedia #news div#newsText h4{
     font-size: 7pt;
     font-weight: 200;
     letter-spacing: -1px;
+    word-spacing: -0.1px;
+}
+section .slider #socialMedia #news div#newsText h4 span{
+    line-height: 2;
+}
+section .slider #socialMedia #news div#emailAddress{
+    width: 164px;
+    height: 16px;
+    background-color: rgba(41 ,174 ,180 ,1);
+    margin-right: 21px;
+    margin-top: 4px;
+    border-radius: 2px;
+}
+section .slider #socialMedia #news div#emailAddress i{
+    font-size: 13px;
+    color: rgba(22 , 144, 150, 1);
+    margin: 2px 0 0 4px;
+    float: left;
+}
+section .slider #socialMedia #news div#emailAddress::after{
+    content: "";
+    height: 7px;
+    width: 1px;
+    display: block;
+    background-color: rgba(22 , 144, 150, 1);
+    float: left;
+    margin: -12px 0 0 23px;
+}
+section .slider #socialMedia #news div#emailAddress p{
+    font-size: 7pt;
+    text-align: center;
+    line-height: 1.9;
+    color: rgba(215 ,236 ,238 ,1);
+}
+section .slider #socialMedia #news #newsButton{
+    width: 40px;
+    height: 15px;
+    display: block;
+    background-color:rgba(255 , 255, 255, 1);
+    border-radius: 2px;
+    margin-right: 82px;
+    margin-top: 7px;
+    color: rgba(39, 190, 196, 1);
+    font-size: 8pt;
+    font-weight: bold;
+
 }
 section .slider .verBarsPhoto{
     width: 781px;
