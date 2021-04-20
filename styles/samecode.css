@@ -279,7 +279,6 @@ header .navbars .logoiconBox .iconBuy{
  }
 section .slider{
     width: 1024px;
-    height: 100%;
     margin: 0 auto;
 }
 section .slider #socialMedia{
@@ -494,6 +493,7 @@ section .slider #socialMedia #news #newsButton{
     color: rgba(39, 190, 196, 1);
     font-size: 8pt;
     font-weight: bold;
+    border-radius: 3px;
 
 }
 section .slider .verBarsPhoto{
@@ -666,4 +666,11 @@ section .slider .siteServices div::after{
 }
 section .slider .siteServices div:last-child::after{
     display: none;
+}
+section .product{
+    border: 2px solid transparent;
+    
+  border-image: url("../images/productBorder.png") 30% round;
+  
+  margin-top: 10px;
 }
