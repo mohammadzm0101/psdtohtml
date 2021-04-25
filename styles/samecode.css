@@ -668,12 +668,25 @@ section .slider .siteServices div:last-child::after{
     display: none;
 }
 section .product{
-    border: 3px solid transparent;
-    
+width: 1024px;
+margin: 0 auto;
+}
+section .product .sectionTopBorder{
+  border: 3px solid transparent;
   border-image: url("../images/sectionBorders2.png") 30% round;
   opacity: 0.7;
-  margin: 0 auto;
-  margin-top: 10px;
-  width: 1009px;
-
+  margin: 19px auto 9px auto;
+  width: 1010px;
+}
+section .product #productTabs{
+    
+}
+section .product #productTabs p{
+    display: inline-block;
+    color: rgba(179 ,179 ,179, 1);
+    background-color: white;
+    border: 1px solid rgba(210 ,210 ,210 ,0.8);
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-left: 10px;
 }
