@@ -675,18 +675,37 @@ section .product .sectionTopBorder{
   border: 3px solid transparent;
   border-image: url("../images/sectionBorders2.png") 30% round;
   opacity: 0.7;
-  margin: 19px auto 9px auto;
+  margin: 19px auto 11px auto;
   width: 1010px;
 }
 section .product #productTabs{
     
 }
-section .product #productTabs p{
+section .product #productTabs a p{
     display: inline-block;
     color: rgba(179 ,179 ,179, 1);
     background-color: white;
     border: 1px solid rgba(210 ,210 ,210 ,0.8);
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     margin-left: 10px;
+    font-weight: 400;
+}
+section .product  i{
+    display: block;
+}
+section .product i#iconSortDown1{
+    margin: -10px 45px 0 0;
+    
+}
+section .product i#iconSortDown2{
+    margin: -16px 155px 0 0;
+
+}
+section .product i#iconSortDown3{
+    margin: -16px 242px 0 0;
+}
+section .product #productTabs a p:hover{
+    border: 1px solid #3cc4c9;
+    color: #27bec4;
 }
