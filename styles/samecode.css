@@ -679,6 +679,10 @@ section .product .sectionTopBorder{
   width: 1010px;
 }
 section .product #productTabs{
+
+}
+section .product #productTabs a{
+
 }
 section .product #productTabs a p{
     display: inline-block;
@@ -687,26 +691,10 @@ section .product #productTabs a p{
     border: 1px solid rgba(210 ,210 ,210 ,0.8);
     border-radius: 20px;
     padding: 5px 10px;
-    margin-left: 10px;
+    margin-left: 2px;
     font-weight: 400;
 }
-section .product #productTabs i{
-    display: block;
+section .product #productTabs a i{
+visibility: hidden;
     
 }
-section .product i#iconSortDown1{
-    margin: -10px 45px 0 0;
-    
-}
-section .product i#iconSortDown2{
-    margin: -16px 155px 0 0;
-
-}
-section .product i#iconSortDown3{
-    margin: -16px 242px 0 0;
-}
-section .product #productTabs a p:hover{
-    border: 1px solid #3cc4c9;
-    color: #27bec4;
-}
-
