@@ -679,7 +679,6 @@ section .product .sectionTopBorder{
   width: 1010px;
 }
 section .product #productTabs{
-    
 }
 section .product #productTabs a p{
     display: inline-block;
@@ -691,8 +690,9 @@ section .product #productTabs a p{
     margin-left: 10px;
     font-weight: 400;
 }
-section .product  i{
+section .product #productTabs i{
     display: block;
+    
 }
 section .product i#iconSortDown1{
     margin: -10px 45px 0 0;
@@ -709,3 +709,4 @@ section .product #productTabs a p:hover{
     border: 1px solid #3cc4c9;
     color: #27bec4;
 }
+
