@@ -682,7 +682,7 @@ section .product #productTabs{
 
 }
 section .product #productTabs a{
-
+        display: inline-block;
 }
 section .product #productTabs a p{
     display: inline-block;
@@ -694,22 +694,32 @@ section .product #productTabs a p{
     margin-left: 2px;
     font-weight: 400;
 }
+
 section .product #productTabs a i{
     visibility: hidden; 
     
     
 }
+section .product #productTabs a#iconSortDown1 i{
+    margin-right: 45px;
+    display: block;
+    margin-top: -10px;
+}
 section .product #productTabs a:hover p{
     border: 1px solid #27bec4;
     color: #27bec4;
 }
-section .product #productTabs a#iconSortDown1 i{
-margin-right: 45px;
-    display: block;
-    margin-top: -10px;
-}
-
 section .product #productTabs a:hover i{
     visibility: visible;
     color:#27bec4;
+}
+section .product #productTabs a#iconSortDown2 i{
+    margin-top: -10px;
+    display: block;
+    margin-right: 35px;
+}
+section .product #productTabs a#iconSortDown3 i{
+    display: block;
+    margin-top: -10px;
+    margin-right: 20px;
 }
