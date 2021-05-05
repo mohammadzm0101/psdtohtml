@@ -678,9 +678,6 @@ section .product .sectionTopBorder{
   margin: 19px auto 11px auto;
   width: 1010px;
 }
-section .product #productTabs{
-
-}
 section .product #productTabs a{
         display: inline-block;
 }
@@ -722,4 +719,18 @@ section .product #productTabs a#iconSortDown3 i{
     display: block;
     margin-top: -10px;
     margin-right: 20px;
+}
+section .product .products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #27bec4;
+}
+section .product .products > div{
+    
+}
+section .product .products div img{
+    display: block;
+    width: 180px;
+    height: 180px;
 }
