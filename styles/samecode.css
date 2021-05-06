@@ -276,40 +276,227 @@ header .navbars .logoiconBox .iconBuy{
      background-color: rgb(245 , 245, 245);
      width: 100%;
      height: 100%;
-    
  }
-section .main{
+section .slider{
     width: 1024px;
-    height: 100%;
     margin: 0 auto;
 }
-section .main .slider{
-}
-section .main .slider #socialMedia{
+section .slider #socialMedia{
     float: left;
-    margin: 13px 14px 0 0;
+    margin: 13px 0 0 11px;
     
 }
-section .main .slider #socialMedia #aparat{
+section .slider #socialMedia #aparat{
     width: 207px;
     height: 104px;
     border: solid 1px rgba(204 , 204, 204, 1);
     background-color: rgba(255 , 255, 255, 1);
+
 }
-section .main .slider #socialMedia #telegram{
+section .slider #socialMedia #aparat img{
+     margin: 17px 32px 0 0;
+}
+section .slider #socialMedia #aparat h4{
+    color: rgba(153 , 153, 153, 1);
+    font-size: 8pt;
+    text-align: center;
+   display: block;
+   margin-top: 6px;
+
+}
+section .slider #socialMedia #aparat h4 span{
+    color: rgba(255 , 0, 102, 1);
+
+}
+section .slider #socialMedia #telegram{
     width: 207px;
     height: 104px;
     border: solid 1px rgba(204 , 204, 204, 1);
     margin: 8px 0 8px 0;
     background-color: rgba(255 , 255, 255, 1);
 }
-section .main .slider #socialMedia #news{
+section .slider #socialMedia #telegram i{
+   color: rgba(185 ,185 ,185 ,1);
+   font-size: 40px;
+   display: block;
+   margin: 17px 83px 4px 0;
+
+}
+section .slider #socialMedia #telegram h4{
+   color: rgba(137 ,137 ,137 ,0.8);
+   font-size: 9pt;
+   text-align: center;
+
+}
+section .slider #socialMedia #telegram h4 span{
+    color:rgba(53 ,160 ,222 ,1);
+}
+section .slider #socialMedia #telegram h5{
+    color: rgba(163 ,163 ,163 ,0.8);
+    font-size: 8pt;
+    text-align: center;
+}
+section .slider #socialMedia #news{
     width: 207px;
     height: 134px;
     border: solid 1px rgba(213 , 213, 213, 0.8);
-    background-color: rgba(255 , 255, 255, 1);
+    background-color: rgb(51 ,204 ,204);
 }
-section .main .slider .verBarsPhoto{
+section .slider #socialMedia #news img{
+    display: block;
+    width: 25px;
+    height: 23px;
+    margin-top: -120px;
+    margin-right: 122px;
+}
+section .slider #socialMedia #news h4{
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    margin-top: -6px;
+    margin-left: 5px;
+}
+section .slider #socialMedia #news h4 span#crowInformerText{
+      display: block ;
+      margin-right: -65px;
+      
+}
+section .slider #socialMedia #news h4 span#crowInformerText1{
+    margin-left: 37px;
+    display: block;
+    margin-top: -30px;
+}
+section .slider #socialMedia #news h4 span#crowInformerText2{
+         display: block;
+         margin-top: -25px;
+         margin-left: 4px;
+}
+section .slider #socialMedia #news h4 span#crowInformerText3{
+    display: block;
+    margin-left: -40px;
+    margin-top: -27px;
+
+}
+
+section .slider #socialMedia #news h5{
+    color: white;
+    text-align: center;
+    font-size: 6pt;
+    font-weight: 300;
+}
+section .slider #socialMedia #news h5 span#crowInformerText4{
+    display: block;
+    margin-left: -40px;
+    margin-top: -3px;
+    letter-spacing: 1px;
+}
+section .slider #socialMedia #news h5 span#crowInformerText5{
+    display: block;
+    margin-top: -7px;
+    margin-left: 40px;
+    letter-spacing: 1px;
+
+
+}
+section .slider #socialMedia #news div#cader::after{
+    content: "";
+    width: 3px;
+    height: 60px;
+    display: block;
+    margin-top: -12px;
+    margin-left: -5px;
+    float: left;
+    background-image: linear-gradient(to left, rgba(41, 176, 181, 0.6), rgba(41, 176, 181, 0.2));
+    box-shadow: -2px 0 7px 3px rgba(41, 176, 181, 0.5);
+}
+section .slider #socialMedia #news div#cader::before{
+    content: "";
+    width: 2px;
+    height: 119px;
+    display: block;
+    margin-left: 8px;
+    float: left;
+    margin-top: -42px;
+    background-image: linear-gradient(to top, rgba(41, 176, 181, 0.2), rgba(41, 176, 181, 1), rgba(41, 176, 181, 0.2));
+    box-shadow: -1px 0 5px 1px rgba(41, 176, 181, 0.5);
+}
+section .slider #socialMedia #news::before{
+    content: "";
+    width: 2px;
+    height: 119px;
+    display: block;
+    margin-top: 8px;
+    margin-right: 8px;
+    background-image: linear-gradient(to top, rgba(41, 176, 181, 0.2), rgba(41, 176, 181, 1), rgba(41, 176, 181, 0.2));
+    box-shadow: 1px 0 5px 1px rgba(41, 176, 181, 0.5);
+}
+section .slider #socialMedia #news::after{
+    content: "";
+    width: 3px;
+    height: 60px;
+    display: block;
+    margin-top: -67px;
+    margin-right: 5px;
+    background-image: linear-gradient(to right, rgba(41, 176, 181, 0.6), rgba(41, 176, 181, 0.2));
+    box-shadow: 2px 0 7px 3px rgba(41, 176, 181, 0.5);
+}
+section .slider #socialMedia #news div#newsText{
+    margin-top: 8px;
+    margin-right: 9px;
+}
+section .slider #socialMedia #news div#newsText h4{
+    font-size: 7pt;
+    font-weight: 200;
+    letter-spacing: -1px;
+    word-spacing: -0.1px;
+}
+section .slider #socialMedia #news div#newsText h4 span{
+    line-height: 2;
+}
+section .slider #socialMedia #news div#emailAddress{
+    width: 164px;
+    height: 16px;
+    background-color: rgba(41 ,174 ,180 ,1);
+    margin-right: 21px;
+    margin-top: 4px;
+    border-radius: 2px;
+}
+section .slider #socialMedia #news div#emailAddress i{
+    font-size: 13px;
+    color: rgba(22 , 144, 150, 1);
+    margin: 2px 0 0 4px;
+    float: left;
+}
+section .slider #socialMedia #news div#emailAddress::after{
+    content: "";
+    height: 7px;
+    width: 1px;
+    display: block;
+    background-color: rgba(22 , 144, 150, 1);
+    float: left;
+    margin: -12px 0 0 23px;
+}
+section .slider #socialMedia #news div#emailAddress p{
+    font-size: 7pt;
+    text-align: center;
+    line-height: 1.9;
+    color: rgba(215 ,236 ,238 ,1);
+}
+section .slider #socialMedia #news #newsButton{
+    width: 40px;
+    height: 15px;
+    display: block;
+    background-color:rgba(255 , 255, 255, 1);
+    border-radius: 2px;
+    margin-right: 82px;
+    margin-top: 7px;
+    color: rgba(39, 190, 196, 1);
+    font-size: 8pt;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+section .slider .verBarsPhoto{
     width: 781px;
     height: 276px;
     background: rgb(201 , 201, 201) url('../images/verBarsPhoto.png') no-repeat;
@@ -319,14 +506,14 @@ section .main .slider .verBarsPhoto{
     
    
 }
-section .main .slider .verBarsPhoto .verBars{
+section .slider .verBarsPhoto .verBars{
     width: 196px;
     height: 277px;
     background-color: rgb(255 , 255, 255);
     margin-top: -1px;
     
 }
-section .main .slider .verBarsPhoto .verBars ul li:nth-child(1){
+section .slider .verBarsPhoto .verBars ul li:nth-child(1){
     border-top:rgba(227 , 225, 225, 0.8) solid 1px; 
     border-bottom: rgba(227 , 225, 225, 0.5) solid 1px; 
     border-right: rgba(227 , 225, 225, 0.5) solid 1px; 
@@ -335,12 +522,12 @@ section .main .slider .verBarsPhoto .verBars ul li:nth-child(1){
     padding-bottom: 15px;
     position: relative;
 } 
-section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover{
+section .slider .verBarsPhoto .verBars ul li:nth-child(1):hover{
     border-right: #27bec4 solid 5px;
     padding-right: 14px;
     margin-right: 1px;
 }
-section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover a{
+section .slider .verBarsPhoto .verBars ul li:nth-child(1):hover a{
     display: block;
     border-right: rgba(204 , 204, 204, 1) solid 1px;
     margin-right: -20px;
@@ -350,7 +537,7 @@ section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover a{
     margin-bottom: -16px;
     padding-bottom: 16px;
 }
-section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover i{
+section .slider .verBarsPhoto .verBars ul li:nth-child(1):hover i{
     color: #27bec4 ;
     font-size: 40px;
     position: absolute;
@@ -358,7 +545,7 @@ section .main .slider .verBarsPhoto .verBars ul li:nth-child(1):hover i{
     right: 150px;
 
 }
-section .main .slider .verBarsPhoto .verBars ul li:nth-child(2){
+section .slider .verBarsPhoto .verBars ul li:nth-child(2){
     border-bottom: rgba(227 , 225, 225, 0.5) solid 1px; 
     border-right: rgba(227 , 225, 225, 0.5) solid 1px; 
     padding-top: 15px;
@@ -367,7 +554,7 @@ section .main .slider .verBarsPhoto .verBars ul li:nth-child(2){
     position: relative;
     
 }
-section .main .slider .verBarsPhoto .verBars ul li:nth-child(3){
+section .slider .verBarsPhoto .verBars ul li:nth-child(3){
     border-bottom: rgba(227 , 225, 225, 0.5) solid 1px; 
     border-right: rgba(227 , 225, 225, 0.5) solid 1px; 
     padding-top: 15px;
@@ -375,7 +562,7 @@ section .main .slider .verBarsPhoto .verBars ul li:nth-child(3){
     padding-bottom: 14px;
     position: relative;
 }
-section .main .slider .verBarsPhoto .verBars ul li:last-child{
+section .slider .verBarsPhoto .verBars ul li:last-child{
     border-bottom: rgba(227 , 225, 225, 0.8) solid 1px;
     border-right: rgba(227 , 225, 225, 0.5) solid 1px;
     padding-top: 15px;
@@ -384,24 +571,24 @@ section .main .slider .verBarsPhoto .verBars ul li:last-child{
     position: relative;
     background-color:rgb(255 , 255, 255);   
 }
-section .main .slider .verBarsPhoto .verBars ul li a h4{
+section .slider .verBarsPhoto .verBars ul li a h4{
     color: #27bec4;
     font-size: 11pt;
     font-weight: bold;
 }
-section .main .slider .verBarsPhoto .verBars ul li a h6{
+section .slider .verBarsPhoto .verBars ul li a h6{
     font-weight: bold;
     font-size: 10pt;
     color: rgba(176 , 174, 174, 1);
 }
-section .main .slider .verBarsPhoto .verBars ul li a i{
+section .slider .verBarsPhoto .verBars ul li a i{
     color: rgba(204 , 204, 204, 0.8);
     font-size: 40px;
     position: absolute;
     bottom: 11px;
     right: 155px;
 }
-section .main .slider .siteServices{
+section .slider .siteServices{
     width: 781px;
     height: 62px;
     margin-right: 10px;
@@ -411,40 +598,40 @@ section .main .slider .siteServices{
     border-radius: 1px;
     display: inline-block;
 } 
-section .main .slider .siteServices #fastDelivery{
+section .slider .siteServices #fastDelivery{
     margin-right: 16px;
     margin-top: 16px;
 }   
 
-section .main .slider .siteServices #fastDelivery a #fastDeliveryIcon{
+section .slider .siteServices #fastDelivery a #fastDeliveryIcon{
     background: url("../images/fastDeliveryIcon.png") no-repeat;
     width: 35px;
     height: 30px;
     display: block;
     margin-left: 10px;
 }
-section .main .slider .siteServices #fastDelivery a h4{
+section .slider .siteServices #fastDelivery a h4{
     margin-left: 41px;
 }
-section .main .slider .siteServices #instantPayment {
+section .slider .siteServices #instantPayment {
     margin-right: 15px;
     margin-top: 15px;
 }
-section .main .slider .siteServices #instantPayment a #instantPaymentIcon{
+section .slider .siteServices #instantPayment a #instantPaymentIcon{
     background: url("../images/instantPaymentIcon.png") no-repeat;
     width: 34px;
     height: 30px;
     display: block;
     margin-left: 9px;
 }
-section .main .slider .siteServices #instantPayment a h4{
+section .slider .siteServices #instantPayment a h4{
     margin-left: 54px;
 }
-section .main .slider .siteServices #guarantee{
+section .slider .siteServices #guarantee{
     margin-right: 15px;
     margin-top: 15px;
 }
-section .main .slider .siteServices #guarantee a #guaranteeIcon{
+section .slider .siteServices #guarantee a #guaranteeIcon{
     background: url("../images/guarantee.png") no-repeat;
     width: 30px;
     height: 30px;
@@ -452,24 +639,24 @@ section .main .slider .siteServices #guarantee a #guaranteeIcon{
     margin-left: 10px;
 }
 
-section .main .slider .siteServices div{
+section .slider .siteServices div{
     float: right;
 }
-section .main .slider .siteServices div a i{
+section .slider .siteServices div a i{
     float: right;
 }
-section .main .slider .siteServices div a h4{
+section .slider .siteServices div a h4{
     font-weight: bold;
     font-size: 9pt;
     color: rgba(100 , 100, 100, 1);
     float: right;
     margin-top: -2px;
 }
-section .main .slider .siteServices div a h4 span{
+section .slider .siteServices div a h4 span{
     font-size: 7pt;
     color: rgba(140 ,140 ,140 ,1);
 }
-section .main .slider .siteServices div::after{
+section .slider .siteServices div::after{
     content:"";
     display: block;
     width: 1px;
@@ -477,6 +664,78 @@ section .main .slider .siteServices div::after{
     background-color: rgba(220 , 220, 220, 1);
     float: right;
 }
-section .main .slider .siteServices div:last-child::after{
+section .slider .siteServices div:last-child::after{
     display: none;
+}
+section .product{
+width: 1024px;
+margin: 0 auto;
+}
+section .product .sectionTopBorder{
+  border: 3px solid transparent;
+  border-image: url("../images/sectionBorders2.png") 30% round;
+  opacity: 0.7;
+  margin: 19px auto 11px auto;
+  width: 1010px;
+}
+section .product #productTabs a{
+        display: inline-block;
+}
+section .product #productTabs a p{
+    display: inline-block;
+    color: rgba(179 ,179 ,179, 1);
+    background-color: white;
+    border: 1px solid rgba(210 ,210 ,210 ,0.8);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+section .product #productTabs a i{
+    visibility: hidden; 
+    
+    
+}
+section .product #productTabs a#iconSortDown1 i{
+    margin-right: 45px;
+    display: block;
+    margin-top: -10px;
+}
+section .product #productTabs a:hover p{
+    border: 1px solid #27bec4;
+    color: #27bec4;
+}
+section .product #productTabs a:hover i{
+    visibility: visible;
+    color:#27bec4;
+}
+section .product #productTabs a#iconSortDown2 i{
+    margin-top: -10px;
+    display: block;
+    margin-right: 35px;
+}
+section .product #productTabs a#iconSortDown3 i{
+    display: block;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+section .product .products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #27bec4;
+}
+section .product .products > div{
+    background: #ffff;
+    border: solid #dfdfdf 1px;
+    margin-left: 7px;
+}
+section .product .products #battleFeild4{
+     
+}
+section .product .products div img{
+    width: 180px;
+    height: 180px;
+    margin: 6px;
 }
