@@ -731,25 +731,33 @@ section .product .products > div{
     border: solid #dfdfdf 1px;
     margin-left: 7px;
 }
+section .product .products #battleFeild4 img{
+    width: 180px;
+    height: 180px;
+    margin: 6px;
+}
 section .product .products #battleFeild4 p{
     font-family: Vazir;
     font-size: 8pt;
     text-align: center;
 }
-section .product .products #battleFeild4 #price{
- 
+section .product .products #battleFeild4 p span{
+    font-family: Arial, Helvetica, sans-serif;
+     word-spacing: -2px;
+ }
+section .product .products #battleFeild4 p#price{
+    text-align: right;
+    color: red;
 }
-section .product .products #battleFeild4 p del{
-    text-indent: 50px;
+section .product .products #battleFeild4 del{
+  
     text-decoration: line-through;
+    font-family: Vazir;
+    font-size: 8pt;
+  
     
 }
-section .product .products #battleFeild4 p span{
-   font-family: Arial, Helvetica, sans-serif;
-    word-spacing: -2px;
-}
-section .product .products div img{
-    width: 180px;
-    height: 180px;
-    margin: 6px;
+
+section .product .products #battleFeild4 i{
+   
 }
