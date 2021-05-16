@@ -746,15 +746,15 @@ section .product .products #battleFeild4 p span{
      word-spacing: -2px;
  }
 section .product .products #battleFeild4 div p#price{
-    text-align: right;
     display: inline-block;
     color: red;
 }
 section .product .products #battleFeild4 div del{
-  display: inline-block;
     text-decoration: line-through;
     font-family: Vazir;
     font-size: 8pt;
+   display: inline-block;
+   
   
     
 }
