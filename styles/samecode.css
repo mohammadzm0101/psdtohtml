@@ -735,37 +735,37 @@ section .product .products > div{
     border: solid #dfdfdf 1px;
     margin-left: 7px;
 }
-section .product .products #battleFeild4{
+section .product .products div{
     padding-bottom: 4px;
 }
-section .product .products #battleFeild4 img{
+section .product .products div img{
     width: 180px;
     height: 180px;
     margin: 6px;
 }
-section .product .products #battleFeild4 p{
+section .product .products div p{
     font-family: Vazir;
     font-size: 8pt;
     text-align: center;
     color: rgba(110, 110 ,110  ,1);
 }
-section .product .products #battleFeild4 p span{
+section .product .products div p span{
     font-family: Arial, Helvetica, sans-serif;
      word-spacing: -2px;
  }
- section .product .products #battleFeild4 #battleFeildPrice{
+ section .product .products div .ProductsGames{
      margin-right: 35px;
      font-weight: 700;
      font-family: Vazir;
     }
 
-section .product .products #battleFeild4 #battleFeildPrice p#price{
+section .product .products div .ProductsGames p.ProductsPrice{
     display: inline-block;
     color: #0eccd4;
 
     
 }
-section .product .products #battleFeild4 #battleFeildPrice del{
+section .product .products .ProductsGames del{
     text-decoration: line-through;
     font-family: Vazir;
     font-size: 8pt;
@@ -774,14 +774,14 @@ section .product .products #battleFeild4 #battleFeildPrice del{
 
 }
 
-section .product .products #battleFeild4 #battleFeildIcons{
+section .product .products div .ProductsIcons{
    margin-right: 53px;
    margin-top: 5px;
 
 }
-section .product .products #battleFeild4 #battleFeildIcons i{
+section .product .products div .ProductsIcons i{
     display: inline-block;
     margin-right: 3px;
     color: rgba(180 ,180 ,180 ,0.8);
     font-size: 18px;
-}
+} 
