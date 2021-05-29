@@ -687,9 +687,12 @@ section .product #productTabs a p{
     background-color: white;
     border: 1px solid rgba(210 ,210 ,210 ,0.8);
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 2px 4px;
     margin-left: 2px;
-    font-weight: 400;
+    font-weight: 900;
+    font-size: 8px;
+    font-family: Vazir;
+
 }
 
 section .product #productTabs a i{
@@ -698,7 +701,7 @@ section .product #productTabs a i{
     
 }
 section .product #productTabs a#iconSortDown1 i{
-    margin-right: 45px;
+    margin-right: 25px;
     display: block;
     margin-top: -10px;
 }
@@ -713,12 +716,13 @@ section .product #productTabs a:hover i{
 section .product #productTabs a#iconSortDown2 i{
     margin-top: -10px;
     display: block;
-    margin-right: 35px;
+    margin-right: 18px;
 }
 section .product #productTabs a#iconSortDown3 i{
     display: block;
     margin-top: -10px;
-    margin-right: 20px;
+    margin-right: 10px;
+
 }
 section .product .products{
     display: flex;
