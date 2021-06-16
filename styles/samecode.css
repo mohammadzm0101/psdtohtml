@@ -678,6 +678,9 @@ section .product .sectionTopBorder{
   margin: 19px auto 11px auto;
   width: 1010px;
 }
+section .product #productTabs{
+  margin-right: 8px;
+}
 section .product #productTabs a{
         display: inline-block;
 }
@@ -729,6 +732,7 @@ section .product .products{
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgb(245 , 245, 245);
+    margin-right: 8px;
 }
 section .product .products > div{
     background: #ffff;
