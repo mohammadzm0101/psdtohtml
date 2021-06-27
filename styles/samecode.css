@@ -789,3 +789,16 @@ section .product .products div .ProductsIcons i{
     color: rgba(180 ,180 ,180 ,0.8);
     font-size: 18px;
 } 
+section .product #rectangle1{
+    background-color: white;
+    background-color: red;
+    padding: 3px;
+    margin: 10px;
+    
+}
+section .product #rectangle2{
+    background-color: white;
+    width: 29px;
+    height: 80px;
+
+}
