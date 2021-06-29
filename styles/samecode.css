@@ -670,6 +670,7 @@ section .slider .siteServices div:last-child::after{
 section .product{
 width: 1024px;
 margin: 0 auto;
+
 }
 section .product .sectionTopBorder{
   border: 3px solid transparent;
@@ -733,6 +734,7 @@ section .product .products{
     flex-wrap: wrap;
     background-color: rgb(245 , 245, 245);
     margin-right: 8px;
+    position: relative;
 }
 section .product .products > div{
     background: #ffff;
@@ -789,16 +791,20 @@ section .product .products div .ProductsIcons i{
     color: rgba(180 ,180 ,180 ,0.8);
     font-size: 18px;
 } 
-section .product #rectangle1{
+section .product  .products #rectangle1, #rectangle2{
+    position: absolute;
+    top: 50%;
+    margin-top: -51px;
+    font-size: 25px;
+    color: #999999;
+    padding: 26px 6px 26px 7px;
     background-color: white;
-    background-color: red;
-    padding: 3px;
-    margin: 10px;
+    border: 0;
     
 }
-section .product #rectangle2{
-    background-color: white;
-    width: 29px;
-    height: 80px;
-
+section .product  .products #rectangle1{
+    right: -9px;
+}
+section .product  .products #rectangle2{
+    left: -1px;
 }
