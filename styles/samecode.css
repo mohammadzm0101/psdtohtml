@@ -810,3 +810,13 @@ section .product  .products #rectangle2{
     left: -1px;
     box-shadow: -1px -1px 8px 0 #d4d4d4;
 }
+section .news .sectionTopBorder{
+    border: 3px solid transparent;
+    border-image: url("../images/sectionBorders2.png") 30% round;
+    opacity: 0.7;
+    margin: 13px auto 11px auto;
+    width: 1011px;
+  }
+  section .news .LastNewsLink{
+      
+  }
