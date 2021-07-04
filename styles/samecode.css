@@ -817,6 +817,58 @@ section .news .sectionTopBorder{
     margin: 13px auto 11px auto;
     width: 1011px;
   }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+ 
+[class*="col-"] {
+ height: 100%;
+  }
+  
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      section .news{
+          width: 100%;
+          height: 100%;
+          
+      }
+
   section .news .LastNewsLink{
+    width: 1002px;
+    height: 38px;
+    margin: 0 auto;
+    background-color: blue;
+    
+  }
+  section .news .LastNewsLink .col-2{
+      background-color: brown;
       
+  }
+  section .news .LastNewsLink .col-2 i{
+      display: inline-block;
+      color: #ff6633;
+      transform: rotate(-20deg);
+      margin-top: 10px;
+      margin-right: 7px;
+  }
+  section .news .LastNewsLink .col-2 h4{
+     
+      margin-right: 15px;
+      float: left;
+  }
+  section .news .LastNewsLink .col-2 h5{
+      margin-right: 30px;
+      float: left;
   }
