@@ -857,18 +857,29 @@ section .news .sectionTopBorder{
       
   }
   section .news .LastNewsLink .col-2 i{
-      display: inline-block;
       color: #ff6633;
-      transform: rotate(-20deg);
-      margin-top: 10px;
-      margin-right: 7px;
+      
   }
-  section .news .LastNewsLink .col-2 h4{
-     
-      margin-right: 15px;
+  section .news .LastNewsLink .col-2 #newsIcon1{
+      margin: -1px 1px;
+      padding: 0 1px;
+      transform: rotate(8deg);
+
+  }
+  section .news .LastNewsLink .col-2 #newsIcon2{
+      padding: 23px 2px;
+     margin: 20px 3px;
+     transform: rotate(-35deg);
+  }
+  section .news .LastNewsLink .col-2 #fontNews{
       float: left;
+  }
+
+  section .news .LastNewsLink .col-2 h4{
+      float: right;
+      display: block;
   }
   section .news .LastNewsLink .col-2 h5{
-      margin-right: 30px;
-      float: left;
+      float: right;
+      display: block;
   }
