@@ -853,7 +853,7 @@ section .news .sectionTopBorder{
     
   }
   section .news .LastNewsLink .col-2{
-      background-color: brown;
+      background-color: olive;
       
   }
   section .news .LastNewsLink .col-2 i{
@@ -861,8 +861,11 @@ section .news .sectionTopBorder{
       
   }
   section .news .LastNewsLink .col-2 #newsIcon1{
-   
+      font-size: small;
       transform: rotate(8deg);
+      text-indent: 6px;
+      line-height: 2.2;
+    
 
   }
   section .news .LastNewsLink .col-2 #newsIcon2{
