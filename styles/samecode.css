@@ -861,14 +861,13 @@ section .news .sectionTopBorder{
       
   }
   section .news .LastNewsLink .col-2 #newsIcon1{
-      margin: -1px 1px;
-      padding: 0 1px;
+   
       transform: rotate(8deg);
 
   }
   section .news .LastNewsLink .col-2 #newsIcon2{
-      padding: 23px 2px;
-     margin: 20px 3px;
+     
+  
      transform: rotate(-35deg);
   }
   section .news .LastNewsLink .col-2 #fontNews{
