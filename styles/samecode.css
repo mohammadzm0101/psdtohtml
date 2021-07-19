@@ -845,7 +845,7 @@ section .news .sectionTopBorder{
           
       }
 
-  section .news .LastNewsLink{
+  section .news .LastNewsLink{            
     width: 1002px;
     height: 38px;
     margin: 0 auto;
@@ -865,23 +865,23 @@ section .news .sectionTopBorder{
       transform: rotate(8deg);
       text-indent: 6px;
       line-height: 2.2;
+      vertical-align: super;
     
 
   }
   section .news .LastNewsLink .col-2 #newsIcon2{
-     
+    vertical-align: sub;
+    text-indent: -8px;
+
   
      transform: rotate(-35deg);
   }
-  section .news .LastNewsLink .col-2 #fontNews{
-      float: left;
-  }
-
   section .news .LastNewsLink .col-2 h4{
-      float: right;
-      display: block;
+      font-size: 10px;
+      display: inline;
+      float:left;
   }
   section .news .LastNewsLink .col-2 h5{
-      float: right;
-      display: block;
+          font-size: 10px;
   }
+
