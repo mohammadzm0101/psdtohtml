@@ -845,22 +845,22 @@ section .news .sectionTopBorder{
           
       }
 
-  section .news .LastNewsLink{            
+  section .news .row {            
     width: 1002px;
     height: 38px;
     margin: 0 auto;
-    background-color: blue;
+    
     
   }
-  section .news .LastNewsLink .col-2{
+  section .news .row .col-2{
       background-color: olive;
       
   }
-  section .news .LastNewsLink .col-2 i{
+  section .news .row .col-2 i{
       color: #ff6633;
       
   }
-  section .news .LastNewsLink .col-2 #newsIcon1{
+  section .news .row .col-2 #newsIcon1{
       font-size: small;
       transform: rotate(8deg);
       text-indent: 6px;
@@ -869,19 +869,34 @@ section .news .sectionTopBorder{
     
 
   }
-  section .news .LastNewsLink .col-2 #newsIcon2{
+  section .news .row .col-2 #newsIcon2{
     vertical-align: sub;
     text-indent: -8px;
-
-  
      transform: rotate(-35deg);
   }
-  section .news .LastNewsLink .col-2 h4{
-      font-size: 10px;
-      display: inline;
-      float:left;
+  section .news .row .col-2 div{
+      float: left;
+      margin: -25px 40px;
+      padding-left: 19px;
   }
-  section .news .LastNewsLink .col-2 h5{
-          font-size: 10px;
+  section .news .row .col-2 h4{
+      font-size: 10px;
+      color: rgb(152, 152, 152, 1);
+     font-size: 11pt;  
+     line-height: 1.2;
+    
+  }
+  section .news .row .col-2 h4 span{
+      color: rgba(255 , 102, 51, 1);
+  }
+  section .news .row .col-2 h5{
+     font-size: 10px;
+     color: rgb(152, 152, 152, 1);
+     font-size: 7pt;
+    
+  }
+  section .news .row .col-10{
+      background-color: rgba(227 , 225, 225, 0.8);
+      float: left;
   }
 
