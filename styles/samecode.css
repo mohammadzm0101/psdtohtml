@@ -817,6 +817,19 @@ section .news .sectionTopBorder{
     margin: 13px auto 11px auto;
     width: 1011px;
   }
+
+  
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      section .news{
+          width: 100%;
+          height: 100%;
+          
+      }
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -832,25 +845,13 @@ section .news .sectionTopBorder{
  
 [class*="col-"] {
  height: 100%;
-  }
-  
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-      section .news{
-          width: 100%;
-          height: 100%;
-          
-      }
+}
 
   section .news .row {            
     width: 1002px;
     height: 38px;
     margin: 0 auto;
-    
-    
+
   }
   section .news .row .col-2{
       background-color: olive;
