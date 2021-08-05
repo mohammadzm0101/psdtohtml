@@ -55,7 +55,8 @@ h4{
     box-sizing: border-box;
 }
 body{
-
+    background-color: #f5f5f5;
+}
 }
 header{
     width: 100%;
@@ -843,7 +844,7 @@ section .sectionTopBorder{
  float: right;
 }
 
-  section .row {            
+  section .newsLink {            
     width: 1002px;
     height: 38px;
     margin: 0 auto;
@@ -851,13 +852,12 @@ section .sectionTopBorder{
     border-radius: 10px;
     border-bottom: 3px #cccccc solid;
     background-color: #ffffff;
-
   }
-  section .row .col-2 i{
+  section .newsLink .col-2 i{
       color: #ff6633;
       
   }
-  section .row .col-2 #newsIcon1{
+  section .newsLink .col-2 #newsIcon1{
       font-size: 7pt;
       transform: rotate(10deg);
       text-indent: 6px;
@@ -866,33 +866,32 @@ section .sectionTopBorder{
     
 
   }
-  section .row .col-2 #newsIcon2{
+  section .newsLink .col-2 #newsIcon2{
     vertical-align: sub;
     text-indent: -8px;
      transform: rotate(-35deg);
   }
-  section .row .col-2 div{
+  section .newsLink .col-2 div{
       
       margin: -23px 35px;
       padding-left: 5px;
   }
-  section .row .col-2 h4{
+  section .newsLink .col-2 h4{
       
       color: rgb(152, 152, 152, 1);
      font-size: 10pt;  
      line-height: 1.2;
     
   }
-  section .row .col-2 h4 span{
+  section .newsLink .col-2 h4 span{
       color: rgba(255 , 102, 51, 1);
   }
-  section .row .col-2 h5{
+  section .newsLink .col-2 h5{
      font-size: 8pt;
      color: rgb(152, 152, 152, 1);
      font-size: 7pt;
-    
   }
-  section .row .col-10 h4{
+  section .newsLink .col-10 h4{
       display: inline-block;
       text-indent: 737px;
       line-height: 2.9;
@@ -900,11 +899,11 @@ section .sectionTopBorder{
       font-size:9pt; 
       word-spacing: -2px;
   }
-  
-  section .row .col-10 i{
+  section .newsLink .col-10 i{
     color: rgb(152, 152, 152, 1);
     font-size: 8pt;
     display: inline-block;
-    
-    
+  }
+  section .LastNewsPhoto{
+      background-color: #f5f5f5;
   }
