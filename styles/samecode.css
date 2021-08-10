@@ -904,19 +904,17 @@ section .sectionTopBorder{
     display: inline-block;
   }
   section .LastNewsPhoto{
-      background-color: #f5f5f5;
-      width: 600px;
-      margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-gap: 50px;
   }
-  section .LastNewsPhoto .col-3{
-      background-color: brown;
-     padding: 50px 0;
-     margin: 2px;
+  section .LastNewsPhoto .newsPhoto2{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-gap: 50px;
   }
-
-section .LastNewsPhoto .col-9{
-    background-color: blue;
-   padding: 50px;
-   margin: 2px;
-}
   
