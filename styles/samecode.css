@@ -905,13 +905,18 @@ section .sectionTopBorder{
   }
   section .LastNewsPhoto{
       background-color: #f5f5f5;
-     
-      height: 50px;
-      
-
+      width: 600px;
+      margin: 0 auto;
   }
   section .LastNewsPhoto .col-3{
       background-color: brown;
-      margin: 1px;
+     padding: 50px 0;
+     margin: 2px;
   }
+
+section .LastNewsPhoto .col-9{
+    background-color: blue;
+   padding: 50px;
+   margin: 2px;
+}
   
