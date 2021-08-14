@@ -909,7 +909,7 @@ section .sectionTopBorder{
     padding: 10px;
     grid-gap: 50px;
   }
-  section .LastNewsPhoto .newsPhoto2{
+  section .LastNewsPhoto .newsPhoto{
     padding: 20px;
     font-size: 30px;
     text-align: center;
