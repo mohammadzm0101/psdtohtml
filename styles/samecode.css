@@ -820,6 +820,8 @@ section .sectionTopBorder{
   }
   section .NewsSection{
       display: grid;
+      grid-gap: 6px 10px;
+      background-color: red;
   }
   section .newsLink {            
     width: 1002px;
