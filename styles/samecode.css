@@ -823,7 +823,23 @@ section .sectionTopBorder{
       grid-gap: 6px 10px;
       background-color: red;
   }
-  section .newsLink {            
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  section .NewsSection .newsLink{            
     width: 1002px;
     height: 38px;
     margin: 0 auto;
@@ -832,42 +848,42 @@ section .sectionTopBorder{
     border-bottom: 3px #cccccc solid;
     background-color: #ffffff;
   }
-  section .newsLink .col-2 i{
+  section .NewsSection .newsLink i{
       color: #ff6633;   
   }
-  section .newsLink .col-2 #newsIcon1{
+  section .NewsSection .newsLink #newsIcon1{
       font-size: 7pt;
       transform: rotate(10deg);
       text-indent: 6px;
       line-height: 2.6;
       vertical-align: super;
   }
-  section .newsLink .col-2 #newsIcon2{
+  section .NewsSection .newsLink #newsIcon2{
     vertical-align: sub;
     text-indent: -8px;
      transform: rotate(-35deg);
   }
-  section .newsLink .col-2 div{
+  section .NewsSection .newsLink div{
       
       margin: -23px 35px;
       padding-left: 5px;
   }
-  section .newsLink .col-2 h4{
+  section .NewsSection .newsLink h4{
       
       color: rgb(152, 152, 152, 1);
      font-size: 10pt;  
      line-height: 1.2;
     
   }
-  section .newsLink .col-2 h4 span{
+  section .NewsSection .newsLink h4 span{
       color: rgba(255 , 102, 51, 1);
   }
-  section .newsLink .col-2 h5{
+  section .NewsSection .newsLink h5{
      font-size: 8pt;
      color: rgb(152, 152, 152, 1);
      font-size: 7pt;
   }
-  section .newsLink .col-10 h4{
+  section .newsLink h4{
       display: inline-block;
       text-indent: 737px;
       line-height: 2.9;
@@ -875,7 +891,7 @@ section .sectionTopBorder{
       font-size:9pt; 
       word-spacing: -2px;
   }
-  section .newsLink .col-10 i{
+  section .newsLink i{
     color: rgb(152, 152, 152, 1);
     font-size: 8pt;
     display: inline-block;
