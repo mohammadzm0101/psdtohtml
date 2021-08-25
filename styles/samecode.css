@@ -818,27 +818,33 @@ section .sectionTopBorder{
     margin: 13px auto 11px auto;
     width: 1011px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   section .NewsSection{
       display: grid;
       grid-gap: 6px 10px;
       background-color: red;
+      grid-template-columns: 'auto'
+      'auto auto auto auto ';
+      
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   section .NewsSection .newsLink{            
     width: 1002px;
     height: 38px;
@@ -848,34 +854,33 @@ section .sectionTopBorder{
     border-bottom: 3px #cccccc solid;
     background-color: #ffffff;
   }
-  section .NewsSection .newsLink i{
-      color: #ff6633;   
-  }
   section .NewsSection .newsLink #newsIcon1{
       font-size: 7pt;
       transform: rotate(10deg);
       text-indent: 6px;
       line-height: 2.6;
       vertical-align: super;
+      color: #ff6633;
   }
   section .NewsSection .newsLink #newsIcon2{
     vertical-align: sub;
     text-indent: -8px;
      transform: rotate(-35deg);
+     color: #ff6633;
   }
   section .NewsSection .newsLink div{
       
       margin: -23px 35px;
       padding-left: 5px;
   }
-  section .NewsSection .newsLink h4{
+  section .NewsSection .newsLink h4#first{
       
       color: rgb(152, 152, 152, 1);
      font-size: 10pt;  
      line-height: 1.2;
     
   }
-  section .NewsSection .newsLink h4 span{
+  section .NewsSection .newsLink h4#first span{
       color: rgba(255 , 102, 51, 1);
   }
   section .NewsSection .newsLink h5{
@@ -883,31 +888,21 @@ section .sectionTopBorder{
      color: rgb(152, 152, 152, 1);
      font-size: 7pt;
   }
-  section .newsLink h4{
+  section .NewsSection .newsLink h4#second{
       display: inline-block;
-      text-indent: 737px;
-      line-height: 2.9;
+      text-indent: 910px;
+      line-height: 2.3;
       color: rgb(152, 152, 152, 1);
       font-size:9pt; 
       word-spacing: -2px;
   }
-  section .newsLink i{
+  section .NewsSection .newsLink i#newsIcon3{
     color: rgb(152, 152, 152, 1);
     font-size: 8pt;
     display: inline-block;
   }
-  section .LastNewsPhoto{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-    grid-gap: 50px;
-  }
-  section .LastNewsPhoto .newsPhoto {
+section .NewsSection .LastNewsPhoto1,.LastNewsPhoto2,.LastNewsPhoto3,.LastNewsPhoto4{
+    background-color: blue;
     padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  grid-gap: 50px;
-  }
-  
+    
+}
