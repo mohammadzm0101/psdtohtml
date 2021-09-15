@@ -842,7 +842,7 @@ section .sectionTopBorder{
       grid-template-rows: auto auto;
       grid-gap: 8px;
       background-color: red;
-      padding: 0 108px;
+      padding: 0 102px;
 
       
       
@@ -906,7 +906,7 @@ section .sectionTopBorder{
 */
 section .NewsSection .LastNewsPhoto1 ,.LastNewsPhoto2 ,.LastNewsPhoto3 ,.LastNewsPhoto4{
     background-color: blue;
-    padding: 20px;
+    padding: 10px;
     
    
     
