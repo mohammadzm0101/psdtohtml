@@ -859,7 +859,7 @@ section .sectionTopBorder{
 
     
   }
-  /*
+  
   section .NewsSection .newsLink #newsIcon1{
       font-size: 7pt;
       transform: rotate(10deg);
@@ -903,7 +903,7 @@ section .sectionTopBorder{
     font-size: 8pt;
     display: inline-block;
   }
-*/
+
 section .NewsSection .LastNewsPhoto1 ,.LastNewsPhoto2 ,.LastNewsPhoto3 ,.LastNewsPhoto4{
     background-color: blue;
     padding: 10px;
