@@ -912,7 +912,7 @@ section .NewsSection .LastNewsPhoto1 ,.LastNewsPhoto2 ,.LastNewsPhoto3 ,.LastNew
     
 }
 section .NewsSection .LastNewsPhoto1{
-    grid-row: 2;
+    grid-row: 3
 }
 section .NewsSection .LastNewsPhoto2{
     grid-row: 2;
