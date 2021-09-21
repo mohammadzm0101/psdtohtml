@@ -830,96 +830,90 @@ section .sectionTopBorder{
 
 
 
-
-
-
-
-
-
   section .NewsSection{
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      grid-template-rows: auto auto;
-      grid-gap: 8px;
-      background-color: red;
-      padding: 0 102px;
-
-      
-      
-  }
-
-  section .NewsSection .newsLink{            
-    grid-row: 1;
-    grid-column: 1 / span 4;
-    border: #cccccc solid 1px;
-    border-radius: 10px;
-    border-bottom: 3px #cccccc solid;
-    background-color: #ffffff;
-    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 8px;
+    background-color: red;
+    padding: 0 102px;
 
     
-  }
+    
+}
+
+section .NewsSection .newsLink{            
+  grid-row: 1;
+  grid-column: 1 / span 4;
+  border: #cccccc solid 1px;
+  border-radius: 10px;
+  border-bottom: 3px #cccccc solid;
+  background-color: #ffffff;
   
-  section .NewsSection .newsLink #newsIcon1{
-      font-size: 7pt;
-      transform: rotate(10deg);
-      text-indent: 6px;
-      line-height: 2.6;
-      vertical-align: super;
-      color: #ff6633;
-  }
-  section .NewsSection .newsLink #newsIcon2{
-    vertical-align: sub;
-    text-indent: -8px;
-     transform: rotate(-35deg);
-     color: #ff6633;
-  }
 
-  section .NewsSection .newsLink h4#first{
-      
-      color: rgb(152, 152, 152, 1);
-     font-size: 10pt;  
-     line-height: 1.2;
+  
+}
+
+section .NewsSection .newsLink #newsIcon1{
+    font-size: 7pt;
+    transform: rotate(10deg);
+    text-indent: 6px;
+    line-height: 2.6;
+    vertical-align: super;
+    color: #ff6633;
+}
+section .NewsSection .newsLink #newsIcon2{
+  vertical-align: sub;
+  text-indent: -8px;
+   transform: rotate(-35deg);
+   color: #ff6633;
+}
+
+section .NewsSection .newsLink h4#first{
     
-  }
-  section .NewsSection .newsLink h4#first span{
-      color: rgba(255 , 102, 51, 1);
-  }
-  section .NewsSection .newsLink h5{
-     font-size: 8pt;
-     color: rgb(152, 152, 152, 1);
-     font-size: 7pt;
-  }
-  section .NewsSection .newsLink h4#second{
-      display: inline-block;
-      
-      line-height: 2.3;
-      color: rgb(152, 152, 152, 1);
-      font-size:9pt; 
-      word-spacing: -2px;
-  }
-  section .NewsSection .newsLink i#newsIcon3{
     color: rgb(152, 152, 152, 1);
-    font-size: 8pt;
+   font-size: 10pt;  
+   line-height: 1.2;
+  
+}
+section .NewsSection .newsLink h4#first span{
+    color: rgba(255 , 102, 51, 1);
+}
+section .NewsSection .newsLink h5{
+   font-size: 8pt;
+   color: rgb(152, 152, 152, 1);
+   font-size: 7pt;
+}
+section .NewsSection .newsLink h4#second{
     display: inline-block;
-  }
+    
+    line-height: 2.3;
+    color: rgb(152, 152, 152, 1);
+    font-size:9pt; 
+    word-spacing: -2px;
+}
+section .NewsSection .newsLink i#newsIcon3{
+  color: rgb(152, 152, 152, 1);
+  font-size: 8pt;
+  display: inline-block;
+}
 
 section .NewsSection .LastNewsPhoto1 ,.LastNewsPhoto2 ,.LastNewsPhoto3 ,.LastNewsPhoto4{
-    background-color: blue;
-    padding: 10px;
-    
-   
-    
+  background-color: blue;
+  padding: 10px;
+  
+ 
+  
 }
 section .NewsSection .LastNewsPhoto1{
-    grid-row: 2
+  grid-row: 2
 }
 section .NewsSection .LastNewsPhoto2{
-    grid-row: 2;
+  grid-row: 2;
 }
 section .NewsSection .LastNewsPhoto3{
-    grid-row: 2;
+  grid-row: 2;
 }
 section .NewsSection .LastNewsPhoto4{
-    grid-row: 2;
+  grid-row: 2;
 }
