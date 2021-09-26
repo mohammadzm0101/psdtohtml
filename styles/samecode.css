@@ -47,13 +47,13 @@ h4{
 }
 *{
     margin: 0;
-    padding: 0;
+    padding:  0;
     text-decoration: none;
     border: 0 none;
     direction:rtl;
     list-style-type: none;
     box-sizing: border-box;
-}
+} 
 body{
     background-color: #f5f5f5;
 }
