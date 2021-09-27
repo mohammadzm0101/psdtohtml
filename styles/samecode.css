@@ -912,6 +912,12 @@ section .NewsSection .LastNewsPhoto1 ,.LastNewsPhoto2 ,.LastNewsPhoto3 ,.LastNew
 }
 section .NewsSection .LastNewsPhoto1{
   grid-row: 2;
+
+}
+section .NewsSection .LastNewsPhoto1 img{
+    width: 240px;
+    height: 161px;
+    
 }
 section .NewsSection .LastNewsPhoto2{
   grid-row: 2;
