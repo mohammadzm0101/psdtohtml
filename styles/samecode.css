@@ -834,7 +834,7 @@ section .sectionTopBorder{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
-    grid-gap: 8px;
+    grid-gap: 4px;
     background-color: red;
     padding: 0 102px;   
 }
@@ -908,23 +908,39 @@ section .NewsSection .newsLink i#newsIcon3{
 
 section .NewsSection .LastNewsPhoto1 ,.LastNewsPhoto2 ,.LastNewsPhoto3 ,.LastNewsPhoto4{
   background-color: blue;
-  padding: 10px;
+  margin-right: 4px;  
 }
 section .NewsSection .LastNewsPhoto1{
   grid-row: 2;
-
+  width: 240px;
+  
 }
-section .NewsSection .LastNewsPhoto1 img{
-    width: 240px;
-    height: 161px;
-    
+section .NewsSection .LastNewsPhoto1 h6{
+    color: #666666;
+    font-weight: bolder;
+    font-family: Vazir;
+    font-size: 7pt;
+    display: inline-block;
+}
+section .NewsSection .LastNewsPhoto1 p#comments{
+   display: inline-block;
+   color:rgb(51 ,204 ,204);
+   font-family: Vazir;
+   font-size: 7pt;
 }
 section .NewsSection .LastNewsPhoto2{
   grid-row: 2;
+  width: 240px;
 }
-section .NewsSection .LastNewsPhoto3{
-  grid-row: 2;
+section .NewsSection .LastNewsPhoto2 .imptyImage{
+    background-color: #999999;
+    width: 240px;
+    height: 161px;
 }
-section .NewsSection .LastNewsPhoto4{
-  grid-row: 2;
+section .NewsSection .LastNewsPhoto2 .imptyImage i{
+    font-size: 65px;
+    color: #666666;
+    text-indent: 85px;
+    line-height: 160px;
 }
+
