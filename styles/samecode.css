@@ -928,10 +928,50 @@ section .NewsSection .LastNewsPhoto1 p#comments{
    font-family: Vazir;
    font-size: 7pt;
 }
+section .NewsSection .LastNewsPhoto1 div{
+   border: red 1px dotted;
+   display: inline-block;
+}
+section .NewsSection .LastNewsPhoto1 div p{
+    font-family: Vazir;
+    font-size: 7pt;
+}
+section .NewsSection .LastNewsPhoto1 p#description{
+    font-family: Vazir;
+}
+
 section .NewsSection .LastNewsPhoto2{
   grid-row: 2;
   width: 240px;
 }
+section .NewsSection .LastNewsPhoto2 h6{
+    color: #666666;
+    font-weight: bolder;
+    font-family: Vazir;
+    font-size: 7pt;
+    display: inline-block;
+}
+section .NewsSection .LastNewsPhoto2 p#comments{
+   display: inline-block;
+   color:rgb(51 ,204 ,204);
+   font-family: Vazir;
+   font-size: 7pt;
+}
+section .NewsSection .LastNewsPhoto2 div{
+   border: red 1px dotted;
+   display: inline-block;
+}
+section .NewsSection .LastNewsPhoto2 div p{
+    font-family: Vazir;
+    font-size: 7pt;
+}
+section .NewsSection .LastNewsPhoto2 p#description{
+    font-family: Vazir;
+}
+
+
+
+
 section .NewsSection .LastNewsPhoto2 .imptyImage{
     background-color: #999999;
     width: 240px;
